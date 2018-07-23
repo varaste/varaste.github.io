@@ -283,33 +283,6 @@
                 <div class="fill "></div>
               </div>
             </div>
-
-            <div class=" c100 p85   w3-red  green
-                  progress-bar-animated    
-                  progress-bar-striped  ">
-              <span>FPGA</span>
-              <div class="slice ">
-                <div class="bar "></div>
-                <div class="fill "></div>
-              </div>
-            </div>
-
-            <div class=" c100 p60  w3-red  green
-                      progress-bar-animated    
-                      progress-bar-striped  ">
-              <span>Verilog</span>
-              <div class="slice ">
-                <div class="bar "></div>
-                <div class="fill "></div>
-              </div>
-            </div>
-
-            <div>
-              <div class=" c100 p0  w3-red  green 
-            progress-bar-animated    
-            progress-bar-striped  ">
-                <span>Html</span>
-                <div class="slice ">
                   <div class="bar "></div>
                   <div class="fill "></div>
                 </div>
@@ -331,25 +304,6 @@
                 <span>JS</span>
                 <div class="slice ">
                   <div class="bar "></div>
-                  <div class="fill "></div>
-                </div>
-              </div>
-            </div>
-            <br>
-          </div>
-
-
-          <div class="lang">
-            <p class="w3-large w3-text-theme">
-              <b>
-                <img class=" icon1 w3-hover-opacity" src="Languages.png"></img>
-              </b>
-              <b class="Title w3-hover-opacity">Languages</b>
-              </b>
-            </p>
-            <p>Persian</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-round-xlarge w3-green progress-bar-animated    
             progress-bar-striped  w3-hover-opacity" style="height:24px;width:100%"></div>
             </div>
             <hr>
@@ -390,19 +344,7 @@
             <p>Ubuntu</p>
             <div class="w3-light-grey w3-round-xlarge">
               <div class="w3-round-xlarge w3-red progress-bar-animated    
-            progress-bar-striped  w3-hover-opacity" style="height:24px;width:35%"></div>
-            </div>
-            <hr>
-            <p>Mac </p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-round-xlarge w3-red progress-bar-animated    
-            progress-bar-striped  w3-hover-opacity" style="height:24px;width:15%"></div>
-            </div>
-            <hr>
-
-            <br>
-          </div>
-        </div>
+            progress-bar-striped  w3-hover-opacity" style="height:24px;width:35%"></div
         <br>
 
         <!-- End Left Column -->
@@ -446,15 +388,6 @@
             </br>
           </div>
         </div>
-
-
-        <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
-          <h2 class="w3-text-grey w3-padding-16">
-            <img class=" icon1 w3-hover-opacity" src="Work Experience.png"></img>
-            <b class="Title">Work Experience</b>
-          </h2>
-          <div class="w3-container">
-            <h6 class="subTitle">
               <b>Scientific Society of Electrical Engineering Department of Amirkabir University of Technology</b>
             </h6>
             <h6 class="era">
@@ -492,22 +425,6 @@
         <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
           <h2 class=" w3-padding-16">
             <img class=" icon1 w3-hover-opacity" src="PRESENTATIONS2.png"></img>
-            <b class="Title">PRESENTATIONS</b>
-          </h2>
-
-          <p class="lang">
-
-            IOT
-            <br> CPU Design
-            <br> SSD VS HDD
-            <br> Security on Wi-Fi Network
-            <br> Getting Started with Git
-            <br> Malware
-            <br> Dynamic Geometry
-            <br> How to presenting your ideas in PowerPoint
-            <br> Cold War
-            <br> Iran Vegetation
-            <br> Badminton
             <br> Training of the Auditory System in the General Anatomy of the Human Body
             <br> Training of the Respiratory System in the general Anatomy of The Human Body
             <br> To Promote Virtue and Prevent Vice
@@ -539,17 +456,6 @@
           <h2 class=" w3-padding-16">
             <img class=" icon1 w3-hover-opacity" src="HONORS AND AWARDS.png"></img>
             <b class="Title">HONORS AND AWARDS</b>
-          </h2>
-
-          <p class="lang">
-            Reached the Second Round of National Chemistry Olympiad [2015]
-            <br> Reached the Second Round of National Literary Olympiad [2015]
-            <br> Second Place in the football Tournament in Tehran zone 1 [2010]
-            <br> Third Place in the football Tournament in Tehran zone 1 [2011] & [2014 C]
-            <br> Selected as the Best Goalkeeper in the football Competition Tehran zone 1 [2014]
-            <br> Selected as the most Tenacious student in high school
-            <br> Third Place in the Student Quran Competitions in Tehran zone 1 [2009]
-            <br>
           </p>
           <hr>
         </div>
@@ -598,24 +504,6 @@
               <br> Assistant Professor Computer Engineering and IT Department, Amirkabir University of Technology
               <br> Email: http://ceit.aut.ac.ir/~bagheri/
               <br> ar_bagheri@aut.ac.ir
-              <br>
-              <hr> Hamid Reza Shahriari
-              <br> Assistant Professor Computer Engineering and IT Department, Amirkabir University of Technology
-              <br> Email: shahriari@aut.ac.ir
-              <br> http://ceit.aut.ac.ir/~hshahriari/
-              <br>
-              <hr> Hamed Farbeh
-              <br> Assistant Professor Computer Engineering and IT Department, Amirkabir University of Technology
-              <br> Email: farbeh@aut.ac.ir
-              <br> http://ceit.aut.ac.ir/~farbeh/
-              <br>
-              <hr> Ehsan Nazerfard
-              <br> Assistant Professor Computer Engineering and IT Department, Amirkabir University of Technology
-              <br> Email: nazerfard@aut.ac.ir
-              <br> http://ceit.aut.ac.ir/~nazerfard/main.htm
-              <br>
-            </p>
-            <hr>
           </div>
         </div>
       </div>
@@ -637,17 +525,6 @@
       <i class="fa fa-telegram w3-hover-opacity telegram SM w3-xxxlarge">. </i>
     </a>
     <a href=""></a>
-    <i class="fa fa-pinterest-p w3-hover-opacity pinterest SM w3-xxxlarge">. </i>
-    </a>
-    <a href="https://github.com/varaste">
-      <i class="fa fa-github w3-hover-opacity github SM w3-xxxlarge"> .</i>
-    </a>
-    <a href="">
-      <i class="fa fa-twitter w3-hover-opacity twitter SM w3-xxxlarge">. </i>
-    </a>
-    <a href="">
-      <i class="fa fa-whatsapp w3-hover-opacity  whatsapp SM w3-xxxlarge">. </i>
-    </a>
     <a href="">
       <i class="fa fa-linkedin w3-hover-opacity linkedin SM w3-xxxlarge"> .</i>
     </a>
