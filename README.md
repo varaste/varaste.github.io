@@ -8,27 +8,7 @@
 
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="">
-<link rel="icon" href="pt.png" sizes="192x192" />
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-
-
-<style>
-  html,
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Garamond", sans-serif
-  }
-
-  h1 {
-    font-family: "Freestyle Script", sans-serif;
+<link rel="icon" href="pt.png" sizes="192x
     color: rgb(255, 255, 255);
     background-color: goldenrod;
     margin: 2%;
@@ -146,10 +126,6 @@
     padding: 0%;
     margin-left: 2%;
   }
-
-  .Rotatea {
-    transform: rotate(3.14rad);
-    /* معادل 180 درجه چرخش  */
   }
 
   .icons {}
@@ -174,16 +150,7 @@
         <div class="w3-white   w3-card-4 w3-round-large">
           <div class="w3-display-container ">
             <img src="arya varaste.png" style="width:100% " class="myImage rounded Rotatea" alt="Avatar"></img>
-            <div class=" w3-container myName w3-round-large">
-              <h1 class "myName w3-hover-opacity ">Arya Varaste</h1>
-            </div>
-            <a href="Arya Varaste CV.pdf">
-              <img class=" icon1 w3-hover-opacity" src="cv.png"></img>
-            </a>
-            <a href="http://aut.ac.ir/aut/">
-              <img src="aut-logo.png" style="width:50% " class="myImage w3-hover-opacity" alt="Avatar"></img>
-            </a>
-            <a href="http://www.mecp.ir/index.aspx?siteid=18">
+            <div class=" w3-container myName wx?siteid=18">
               <img src="mofid.png" style="width:12% " class="myImage w3-hover-opacity" alt="Avatar"></img>
             </a>
             <a href="http://ceit.aut.ac.ir">
@@ -232,22 +199,6 @@
                 <div class="bar "></div>
                 <div class="fill "></div>
               </div>
-            </div>
-
-            <div class=" c100 p65  w3-red  green
-                   progress-bar-animated    
-                   progress-bar-striped  ">
-              <span>Python</span>
-              <div class="slice ">
-                <div class="bar "></div>
-                <div class="fill "></div>
-              </div>
-            </div>
-
-            <div class=" c100 p60  w3-red  green
-            progress-bar-animated    
-            progress-bar-striped  ">
-              <span>Git</span>
               <div class="slice ">
                 <div class="bar "></div>
                 <div class="fill "></div>
@@ -308,22 +259,7 @@
             </div>
             <hr>
             <p>English</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-round-xlarge w3-green w3-green progress-bar-animated    
-            progress-bar-striped  w3-hover-opacity" style="height:24px;width:85%"></div>
-            </div>
-            <hr>
-            <p>German</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-round-xlarge w3-green w3-green progress-bar-animated    
-            progress-bar-striped  w3-hover-opacity" style="height:24px;width:25%"></div>
-            </div>
-            <hr>
-            <p>Arabic</p>
-            <div class="w3-light-grey w3-round-xlarge">
-              <div class="w3-round-xlarge w3-green  w3-green progress-bar-animated    
-            progress-bar-striped  w3-hover-opacity" style="height:24px;width:45%"></div>
-            </div>
+            <div class="w3-light-grey w3-roun
             <br>
 
 
@@ -367,30 +303,6 @@
               <b>B.Sc. Student of Software Engineering and Computer Networks Engineering</b>
             </h7>
             <h6 class="era ">
-              <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[September 2016 – present]</h6>
-            <p>Overall GPA: 16.14 out of 20</br>
-              Last Year GPA: 16.88 out of 20</br>
-              Except General Mathematics and Physics GPA: 16.67 out of 20</p>
-            <hr>
-          </div>
-
-          <div class="w3-container">
-            <h4 class="subTitle">
-              <b>Mofid High School, Tehran, Iran.</b>
-            </h4>
-            <h7 class="">
-              <b> Diploma in Physics and Mathematics</b>
-            </h7>
-
-            <h6 class="era">
-              <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[2012 – 2016]</h6>
-            <p>Overall GPA: 19.28 out of 20</p>
-            </br>
-          </div>
-        </div>
-              <b>Scientific Society of Electrical Engineering Department of Amirkabir University of Technology</b>
-            </h6>
-            <h6 class="era">
               <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[2016 -2017]
               <!--<span class="w3-tag w3-teal w3-round">Current</span>-->
             </h6>
@@ -452,25 +364,6 @@
         </div>
 
 
-        <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
-          <h2 class=" w3-padding-16">
-            <img class=" icon1 w3-hover-opacity" src="HONORS AND AWARDS.png"></img>
-            <b class="Title">HONORS AND AWARDS</b>
-          </p>
-          <hr>
-        </div>
-
-
-        <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
-          <h2 class=" w3-padding-16">
-            <img class=" icon1 w3-hover-opacity" src="RESEARCH EXPERIENCES1.png"></img>
-            <b class="Title">RESEARCH EXPERIENCES</b>
-          </h2>
-          <p class="lang">
-            Pipeline on Processor
-            <br> Dynamic Geometry
-            <br>
-          </p>
           <hr>
         </div>
 
@@ -513,23 +406,7 @@
   </div>
   <!-- End Page Container -->
   </div>
-  <footer class="w3-container footer w3-center w3-margin-top">
-    <h4>Find me on social media.</h4>
-    <a href="">
-      <i class="fa fa-facebook-official w3-hover-opacity facebook SM w3-xxxlarge">. </i>
-    </a>
-    <a href="https://www.instagram.com/aryavaraste/">
-      <i class="fa fa-instagram w3-hover-opacity  instagram SM w3-xxxlarge"> .</i>
-    </a>
-    <a href="https://t.me/PhoenixAIM54">
-      <i class="fa fa-telegram w3-hover-opacity telegram SM w3-xxxlarge">. </i>
-    </a>
-    <a href=""></a>
-    <a href="">
-      <i class="fa fa-linkedin w3-hover-opacity linkedin SM w3-xxxlarge"> .</i>
-    </a>
-    <a href="">
-      <i class="fa fa-Google+  w3-hover-opacity Google+ SM "></i>
+  <footer class="w3-container footer w3-center oogle+ SM "></i>
     </a>
     <p>Powered by
       <a href="https://github.com/varaste" target="_blank">Arya Varaste</a>
