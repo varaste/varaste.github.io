@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Nunito;
+    src: url("./Nunito/Nunito-Regular.ttf") format('truetype');
+    font-weight: bold;
+    font-style: normal;
+       }
+       html,
+       body,
+       h1,
+       h2,
+       h3,
+       h4,
+       h5,
+       h6 {
+           font-family: 'Nunito', sans-serif;
+           font-weight: 400;
+       }
+    
+       h1 {
+           font-family: 'Nunito', sans-serif;
+           font-weight: 450;
+           color: rgb(255, 255, 255);
+           background-color: #3a73a9;
+           margin: 2%;
+           padding: 0%;
+           border: 10px;
+           border-color: black;
+           align-content: center;
+           align-items: center;
+           text-align: center;
+       }
+       
+       h6.subTitle {
+           margin: 0px;
+           padding: 0%;
+       }
+       
+       hr {
+           color: red;
+       }
+       
+       .ii {
+           color: #3a73a9;
+       }
+       
+       .TA-CName {
+           color: rgb(63, 63, 63);
+           font-size: 17px;
+       }
+       
+       .era {
+           color: #1ba1e2	;
+           text-shadow: 0.3px 0.3px 0 rgb(83, 0, 0);
+           padding-left: 2%;
+       }
+       
+       .Title {
+           color: #1ba1e2	;
+           margin-left: 1.5%;
+       }
+       
+       .subTitle {
+           color: rgb(61, 61, 61);
+       }
+       
+       .clhr {
+           color: red;
+       }
+       
+       .pBar {
+           color: red;
+       }
+       
+       .myImage {
+           width: 90%;
+           padding: 0%;
+           margin-bottom: 0%;
+       }
+       
+       .footer {
+           background-color: #1ba1e2;
+       }
+       
+       .twitter {
+           color: royalblue;
+       }
+       
+       .myName {
+           font-family: 'Nunito', sans-serif;
+           font-weight: 600;
+           color: rgb(255, 255, 255);
+           background-color: #1ba1e2;
+           margin: 1%;
+           padding: 0%;
+           border: 10px;
+           border-color: black;
+       }
+       
+       .Refh4 {
+           margin-top: 0%;
+           margin-bottom: 0%;
+           padding-top: 0%;
+           padding-bottom: 0%;
+       }
+    
+       .github {
+           color: black;
+       }
+       
+       .instagram {
+           color: rgb(255, 0, 98);
+       }
+       
+       .telegram {
+           color: rgb(248, 248, 248)
+       }
+       
+       .linkedin {
+           color: rgb(30, 43, 228)
+       }
+    
+    
+       
+       .SM {
+           size: 500px;
+       }
+       
+       .CV {
+           color: rgb(255, 255, 255);
+           background-color: #1ba1e2;
+           margin: 0%;
+           padding: 0%;
+           border: 0ch;
+       }
+       
+       .lang {
+           margin: 10px;
+           padding: 10px;
+       }
+       
+       .icon1 {
+           width: 60px;
+           height: 60px;
+           padding: 0%;
+           margin-left: 2%;
+       }
+       
+    
+       
+       .icons {}
+       
+       .page {
+           margin: 40px;
+       }
+       
+       .PageName {
+           margin-top: 1%;
+       }
+       
+       .LeftCont {
+           padding-top: 1px;
+       }
+       
+       .Neuroscience {
+           margin-left: 10px;
+       }
+    
+       
+       .z0-1 {
+           margin-left: 10px;
+       }
+       
+       .TEItem {
+           margin: 0%;
+           padding-left: 2%;
+       }
+       
+       .Title .footer .myName .CV .era {
+           background-color: #81c700;
+           color: #81c700;
+    
+       }
+    
+    
+    
+    
+    
