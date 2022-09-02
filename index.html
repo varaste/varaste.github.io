@@ -23,9 +23,22 @@
     @font-face {
 font-family: Nunito;
 src: url("./Nunito/Nunito-Regular.ttf") format('truetype');
+}
+@font-face {
+font-family: Nunito;
+src: url("./Nunito/Nunito-Bold.ttf") format('truetype');
 font-weight: bold;
 font-style: normal;
-   }
+}
+@font-face {
+font-family: Nunito;
+src: url("./Nunito/Nunito-Italic.ttf") format('truetype');
+font-weight: normal;
+font-style: italic;
+}
+
+
+
    html,
    body,
    h1,
@@ -35,12 +48,10 @@ font-style: normal;
    h5,
    h6 {
        font-family: 'Nunito', sans-serif;
-       font-weight: 400;
    }
 
    h1 {
        font-family: 'Nunito', sans-serif;
-       font-weight: 450;
        color: rgb(255, 255, 255);
        background-color: #3a73a9;
        margin: 2%;
@@ -53,22 +64,18 @@ font-style: normal;
    }
 </style>
 
-    <body class="w3-light-grey">
-
+    <body class="AryaBG">
         <!-- Page Container -->
         <div class="w3-content w3-margin-top" style="max-width:1400px;">
-
             <!-- The Grid -->
             <div class="w3-row-padding">
-                <div class=" w3-container myName w3-round-large PageName">
-                    <h1 class="myName w3-hover-opacity ">Arya Varaste Nezhad</h1>
+                <div class="w3-container myName w3-round-large">
+                    <h1 class="myName w3-hover-opacity">Arya Varaste Nezhad</h1>
                 </div>
                 <!-- Left Column -->
                 <div class="w3-third">
-
-                    <div class="w3-white   w3-card-4 w3-round-large">
-                        <div class="w3-display-container LeftCont ">
-
+                    <div class="w3-card-4 w3-round-large AryaCard">
+                        <div class="w3-display-container LeftCont">
                         </div>
                         <br>
                         <div class="w3-container">
@@ -98,12 +105,14 @@ font-style: normal;
                                         <span>Java,&nbsp;</span>
                                         <span>C,&nbsp;</span>
                                         <span>C++,&nbsp;</span>
-                                        <span>Racket &nbsp;</span>
                                     </ul>
                                 </li>
 
-                                <li><b>Data Science:</b>
+                                <li><b>AI and Data Science:</b>
                                     <ul style="list-style-type:none">
+                                        <span>NumPy,&nbsp;</span>
+                                        <span>Pandas,&nbsp;</span>
+                                        <span>Matplotlib,&nbsp;</span>
                                         <span>Scikit-learn,&nbsp;</span>
                                         <span>NLTK &nbsp;</span>
                                     </ul>
@@ -123,8 +132,7 @@ font-style: normal;
                                         <span>Assembly,&nbsp;</span>
                                         <span>VHDl,&nbsp;</span>
                                         <span>Verilog,&nbsp;</span>
-                                        <span>AVR Microcontroller,&nbsp;</span>
-                                        <span>ARM Microcontroller,&nbsp;</span>
+                                        <span>AVR & ARM Microcontroller,&nbsp;</span>
                                         <span>FPGA,&nbsp;</span>
                                     </ul>
                                 </li>
@@ -135,7 +143,7 @@ font-style: normal;
                                         <span>CSS,&nbsp;</li>
                                         <span>JavaScript,&nbsp;</li>
                                         <span>Vue.js,&nbsp;</li>
-                                        <span>XML&nbsp;</li>
+                                        <span>XML,&nbsp;</li>
                                         <span>jQuery,&nbsp;</li>
                                         <span>Bootstrap&nbsp;</li>
                                     </ul>
@@ -146,6 +154,7 @@ font-style: normal;
                                         <span>MS Project,&nbsp;</span>
                                         <span>Galago,&nbsp;</span>
                                         <span>Wireshark,&nbsp;</span>
+                                        <span>Ubuntu,&nbsp;</span>
                                         <span>Jaeger,&nbsp;</span>
                                         <span>LeTeX</span>
                                     </ul>
@@ -158,15 +167,15 @@ font-style: normal;
                             </p>
 
                             <p><b>Persian</b></p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge w3-win8-crimson progress-bar-animated    
-                              progress-bar-striped  w3-hover-opacity" style="height:24px;width:85%"></div>
+                            <div class="w3-light-grey w3-round-xlarge pBar">
+                                <div class="w3-round-xlarge w3-win8-emerald progress-bar-animated    
+                              progress-bar-striped  w3-hover-opacity pBar" style="height:24px; width:85%"></div>
                             </div>
                             <hr>
                             <p><b>English</b></p>
                             <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge w3-win8-crimson progress-bar-animated    
-                            progress-bar-striped  w3-hover-opacity" style="height:24px;width:70%"></div>
+                                <div class="w3-round-xlarge w3-win8-emerald progress-bar-animated    
+                            progress-bar-striped  w3-hover-opacity" style="height:24px; width:70%"></div>
                             </div>
                             <hr>
                             <a href="Arya Varaste CV.pdf">
@@ -203,22 +212,22 @@ font-style: normal;
 
                 <!-- Right Column -->
                 <div class="w3-twothird">
-                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class=" w3-padding-16">
                             <b class="Title">Education</b>
                         </h2>
 
                         <div class="w3-container">
-                            <a href="">
+                            <a href="https://ut.ac.ir/en">
                                 <h4 class="subTitle" style="margin: 0%; padding:0%">
                                     <b>University of Tehran, Tehran, Iran.</b>
                                 </h4>
                             </a>
 
-                            <p style="margin: 0%; padding:0%">(Iran’s largest Academic Institution)</p>
+                            <i><p style="margin: 0%; padding:0%">(Iran’s largest Academic Institution)</p></i>
 
                             <h7 class="">
-                                <b>M.Sc. Student of Information Technology, University of Tehran, Tehran, Iran</b>
+                                <b>M.Sc. Student of Information Technology</b>
                                 <br>
                                 <!--
                                     <b style="margin: 0%;">Thesis: Design of a Dentigerous lesion detection system from Radiographic images using Deep learning methods</b>
@@ -230,27 +239,27 @@ font-style: normal;
                          <!--
                                 Overall GPA: 16.87 out of 20</br>
                          -->
-                         <p>Overall GPA: 18.45/20</br> 
+                         <p>Overall GPA: <b>18.45</b>/20</br> 
                             <hr>
                         </div>
 
                         <div class="w3-container">
-                            <a href="">
+                            <a href="https://aut.ac.ir/en">
                                 <h4 class="subTitle" style="margin: 0%; padding:0%">
                                     <b>Amirkabir University of Technology (Tehran Polytechnic), Tehran, Iran.</b>
                                 </h4>
                             </a>
 
-                            <p style="margin: 0%; padding:0%">(Ranked 2nd among all Iranian universities based on QS World University Rankings
-                                2021)</p>
+                            <i><p style="margin: 0%; padding:0%">(Ranked <b>2nd</b> among all Iranian universities based on QS World University Rankings
+                                2021)</p></i>
 
                             <h7 class="">
-                                <b>B.Sc. in Computer Engineering, Amirkabir University of Technology, Tehran, Iran, 2021</b>
+                                <b>B.Sc. in Computer Engineering, 2021</b>
                                 <br>
                                 <b style="margin: 0%;">Thesis: Design of a Dentigerous lesion detection system from Radiographic images using Deep learning methods</b>
                             </h7>
 
-                            <h6 class="era " style="margin: 0%;">
+                            <h6 class="era" style="margin: 0%;">
                                 <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[2016 – 2021]</h6>
                             <p>Overall GPA: 16.87/20</br>
                             <hr>
@@ -268,44 +277,47 @@ font-style: normal;
                             </h7>
 
                             <h6 class="era" style="margin: 0%; padding:0%">
-                                <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[2012 – 2016]</h6>
+                                <i class="TEItem fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i> <span>&nbsp</span> [2012 – 2016]</h6>
                             <p>Overall GPA: 19.28/20</p>
-                            </br>
+                            </hr>
                         </div>
                     </div>
 
-                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class=" w3-padding-16">
                             <b class="Title">Research Interests</b>
                         </h2>
                         <ul style="list-style-type:circle;">
                             <li>
-                                Applications of Technologies in Medicine
+                                <b>Applications of Technologies in Medicine</b>
                             </li>
                             <li>
-                                Health Informatics
+                                <b>Health Informatics</b>
                             </li>
                             <li>
-                                Data Mining
+                                <b>Data Mining</b>
+                            </li>
+
+                            <li>
+                                <b>Data Science</b>
                             </li>
                             <li>
-                                IT Project Management
-                            </li>
-                            <li>
-                                Data Science
+                                <b>IT Project Management</b>
                             </li>
                         </ul>
-                        <hr>
                     </div>
 
-                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class="w3-text-grey w3-padding-16">
                             <b class="Title">Teaching Experience</b>
                         </h2>
                         <div class="w3-container">
 
-                        <h5 class="TEItem">
-                        Department Electrical and Computer Engineering, <b>University of Tehran</b>
+                        <h5 class="TEItem" style="padding-left: 0%;">
+                            <i class="fa fa-university fa-fw w3-large ii w3-hover-opacity" ></i>
+                            <a class="subTitle" href="https://ece.ut.ac.ir/en/ece">
+                                Department Electrical and Computer Engineering, <b>University of Tehran</b>
+                            </a>
                         </h5>
                         <p></p>
 
@@ -316,8 +328,11 @@ font-style: normal;
                             </h6>
                             <hr>
                             
-                        <h5 class="TEItem">
-                        Department Computer Engineering, <b>Amirkabir University of Technology</b>
+                        <h5 class="TEItem" style="padding-left: 0%;">
+                            <i class="fa fa-university fa-fw w3-large ii w3-hover-opacity" ></i>
+                            <a class="subTitle" href="https://ce.aut.ac.ir/">
+                                Department Computer Engineering, <b>Amirkabir University of Technology</b>
+                            </a>
                         </h5>
                         <p></p>
 
@@ -399,12 +414,28 @@ font-style: normal;
                                 <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i> <b>[Fall 2020]</b>
                             </h6>
                             <p></p>
-                            <hr>
                         </div>
                     </div>
 
 
-                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                        <h2 class=" w3-padding-16">
+                            <b class="Title">Selected Coursework</b>
+                        </h2>
+                        <ol type="1">
+                            <li>
+                                Detection of Dentigerous lesion from Radiographic images using Deep learning methods
+                            </li>
+                            <li>
+                                Specifics of medical data mining for diagnosis aid 
+                            </li>
+
+                        </ol>
+                    </div>
+
+
+
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class="w3-text-grey w3-padding-16">
                             <b class="Title">Research & Work Experience</b>
                         </h2>
@@ -456,73 +487,87 @@ font-style: normal;
                                 <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[2017 - Present]
                             </h6>
                             <p></p>
-                            <hr>
                         </div>
 
                     </div>
 
 
-                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                        <h2 class=" w3-padding-16">
+                            <b class="Title">Selected Projects</b>
+                        </h2>
+                        <ol type="1">
+                            <li>
+                                Detection of Dentigerous lesion from Radiographic images using Deep learning methods
+                                <a href=""><img src="https://img.shields.io/badge/-Github Repository -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                            </li>
+
+                        </ol>
+                    </div>
+
+
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class=" w3-padding-16">
                             <b class="Title">Presentations</b>
                         </h2>
                         <ol type="1">
                             <li>
                                 Detection of Dentigerous lesion from Radiographic images using Deep learning methods
+                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
                             </li>
                             <li>
                                 Specifics of medical data mining for diagnosis aid
+                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
                             </li>
                             <li>
                                 Wearable sensors and technologies and their applications in medicine
+                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
                             </li>
                             <li>
                                 Software Architecture Design
+                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
                             </li>
                             <li>
                                 Scrum Methodology
+                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
                             </li>
                         </ol>
-                        <hr>
                     </div>
 
-                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class=" w3-padding-16">
                             <b class="Title">Publications</b>
                         </h2>
 
                         <ol type="1">
                             <li>
-                                Detection of Dentigerous lesion from Radiographic images using Deep learning methods
+                                Detection of Dentigerous lesion from Radiographic images using Deep learning methods 
+                                <a href=""><img src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
                             </li>
                             <li>
                                 Wearable sensors and technologies and their applications in medicine
+                                <a href=""><img src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
                             </li>
-                            <li>
+                            <li> 
                                 Web Development focus on Vue.JS
+                                <a href=""><img src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
                             </li>
                             <li>
                                 Electronic Medical Prescription System Design
-                            </li>
-                            <li>
-                                CPU Design
-                            </li>
-                            <li>
-                                Pipeline on Processor
+                                <a href=""><img src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
                             </li>
                         </ol>
-                        <hr>
                     </div>
 
 
-                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class=" w3-padding-16">
                             <b class="Title">Honors and Awards</b>
                         </h2>
 
                         <ul style="list-style-type:circle;">
                             <li>
-                                Ranked 
+                                Ranked 6th among participants in the National Master Entrance Exam among all Iranian Students in the fild of Information Technology
                             </li> 
                             <li>
                                 Reached the Second Round of National Literary Olympiad [2015]
@@ -537,10 +582,9 @@ font-style: normal;
                                 Selected as the Best Goalkeeper in the Football Competition Tehran zone 1 [2014]
                             </li>
                         </ul>
-                        <hr>
                     </div>
 
-                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class=" w3-padding-16">
                             <b class="Title">Hobbies</b>
                         </h2>
@@ -558,11 +602,10 @@ font-style: normal;
                                 Psychology
                             </li>
                         </ul>
-                        <hr>
                     </div>
 
 
-                    <div class="w3-container w3-card w3-white w3-margin-bottom w3-round-large">
+                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class=" w3-padding-16">
                             <b class="Title">References</b>
                         </h2>
@@ -588,7 +631,7 @@ font-style: normal;
                                 <br>
                                 <hr>
 
-                                <a href="https://old.aut.ac.ir/official/main.asp?uid=h_zarandi">
+                                <a href="https://aut.ac.ir/cv/2188/Hamid-Reza-Zarandi?slc_lang=en&&cv=2188&mod=scv">
                                     <h4 class="Refh4">
                                         HamidReza Zarandi
                                     </h4>
@@ -614,7 +657,7 @@ font-style: normal;
                                     </h4>
                                 </a>
                                 Assistant Professor Computer Engineering and IT Department, Amirkabir University of Technology
-                                <br>Email:
+                                <br>Email: mjavan@aut.ac.ir
                                 <hr>
 
                                 <a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=189480">
@@ -625,49 +668,39 @@ font-style: normal;
                                 Assistant Professor Computer Engineering and IT Department, Amirkabir University of Technology
                                 <br>Email:
                             
-                            <hr>
                         </div>
                     </div>
                 </div>
                 <!-- End Right Column -->
+            
+            
+            
+            
             </div>
             <!-- End Grid -->
+            <footer class="w3-container footer w3-center w3-margin-top w3-round-large PageName">
+                    <h4 style="color: aliceblue;">Find me on social media</h4>
+                    <a href="https://github.com/varaste">
+                        <i class="fa fa-github w3-hover-opacity github SM w3-xxxlarge">. </i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/arya-varaste-908191137/">
+                        <i class="fa fa-linkedin w3-hover-opacity linkedin SM w3-xxxlarge">. </i>
+                    </a>
+                    <a href="https://t.me/AryaVaraste">
+                        <i class="fa fa-telegram w3-hover-opacity telegram SM w3-xxxlarge">. </i>
+                    </a>
+                    <a href="https://www.instagram.com/aryavaraste/">
+                        <i class="fa fa-instagram w3-hover-opacity  instagram SM w3-xxxlarge">.</i>
+                    </a>
+                    <a href="">
+                        <i class="fa fa-twitter w3-hover-opacity twitter SM w3-xxxlarge">. </i>
+                    </a>
+                    <p style="color: aliceblue;">Powered by
+                        <a style="color: rgb(217, 255, 0);" href="https://github.com/varaste" target="_blank">Arya Varaste</a>
+                    </p>            
+            </footer>
         </div>
         <!-- End Page Container -->
-
         </div>
-        <footer class="w3-container footer w3-center w3-margin-top">
-            <h4 style="color: aliceblue;">Find me on social media</h4>
-
-            <a href="https://github.com/varaste">
-                <i class="fa fa-github w3-hover-opacity github SM w3-xxxlarge">. </i>
-            </a>
-            <a href="">
-                <i class="fa fa-linkedin w3-hover-opacity linkedin SM w3-xxxlarge">. </i>
-            </a>
-            <a href="https://t.me/AryaVaraste">
-                <i class="fa fa-telegram w3-hover-opacity telegram SM w3-xxxlarge">. </i>
-            </a>
-            <a href="https://www.instagram.com/aryavaraste/">
-                <i class="fa fa-instagram w3-hover-opacity  instagram SM w3-xxxlarge">.</i>
-            </a>
-            <a href="">
-                <i class="fa fa-whatsapp w3-hover-opacity  whatsapp SM w3-xxxlarge">. </i>
-            </a>
-            <a href="">
-                <i class="fa fa-facebook-official w3-hover-opacity facebook SM w3-xxxlarge">. </i>
-            </a>
-            <a href="">
-                <i class="fa fa-twitter w3-hover-opacity twitter SM w3-xxxlarge">. </i>
-            </a>
-
-            <p style="color: aliceblue;">Powered by
-                <a style="color: rgb(217, 255, 0);" href="https://github.com/varaste" target="_blank">Arya Varaste</a>
-                <span align="left"> <img src="https://komarev.com/ghpvc/?username=varastegithubio" alt="varaste" /> </span>
-            </p>
-
-        </footer>
-
-
     </body>
 </html>

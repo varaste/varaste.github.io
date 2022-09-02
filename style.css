@@ -12,12 +12,12 @@
        h4,
        h5,
        h6 {
-           font-family: 'Nunito', sans-serif;
+           font-family: var(--MainFont), sans-serif;
            font-weight: 400;
        }
     
        h1 {
-           font-family: 'Nunito', sans-serif;
+           font-family: var(--MainFont), sans-serif;
            font-weight: 450;
            color: rgb(255, 255, 255);
            background-color: #3a73a9;
@@ -39,37 +39,77 @@
            color: red;
        }
        
+
+        :root{
+        --MainFont: 'Nunito';
+        --MainColor: #008a00;
+        --SecendColor: #21b421  ;
+        --BgColor:  #cfddcf;
+        --CardColor:  #f3ffea;
+        --MyTextColor: #fff;
+        --MyPadding: 10px;
+        }
+
+        .AryaBG{
+            background-color: var(--BgColor);
+        }
+
+       .myName {
+        font-family: var(--MainFont), sans-serif;
+        font-weight: 550;
+        color: rgb(255, 255, 255);
+        background-color: var(--MainColor);
+        margin: 1%;
+        padding: 0%;
+        border: 10px;
+        border-color: black;
+        margin-left: 0.5%; 
+        margin-right: 0.5%
+        }
+
+
+        .AryaCard {
+            background-color: var(--CardColor);
+        }
+
+
+        .Title {
+            color: var(--MainColor)	;
+            margin-left: 1.5%;
+            font-weight: 800;
+            font-size: 35px;
+
+        }
+        
+        .subTitle {
+            color: rgb(61, 61, 61);
+        }
+
        .ii {
-           color: #3a73a9;
+           color: var(--SecendColor);
        }
        
+
        .TA-CName {
            color: rgb(63, 63, 63);
            font-size: 17px;
        }
        
        .era {
-           color: #1ba1e2	;
+           color: var(--SecendColor)	;
            text-shadow: 0.3px 0.3px 0 rgb(83, 0, 0);
            padding-left: 2%;
        }
        
-       .Title {
-           color: #1ba1e2	;
-           margin-left: 1.5%;
-       }
-       
-       .subTitle {
-           color: rgb(61, 61, 61);
-       }
+
        
        .clhr {
            color: red;
        }
        
        .pBar {
-           color: red;
-       }
+        color: var(--SecendColor);
+    }
        
        .myImage {
            width: 90%;
@@ -77,24 +117,8 @@
            margin-bottom: 0%;
        }
        
-       .footer {
-           background-color: #1ba1e2;
-       }
-       
-       .twitter {
-           color: royalblue;
-       }
-       
-       .myName {
-           font-family: 'Nunito', sans-serif;
-           font-weight: 600;
-           color: rgb(255, 255, 255);
-           background-color: #1ba1e2;
-           margin: 1%;
-           padding: 0%;
-           border: 10px;
-           border-color: black;
-       }
+
+
        
        .Refh4 {
            margin-top: 0%;
@@ -103,21 +127,7 @@
            padding-bottom: 0%;
        }
     
-       .github {
-           color: black;
-       }
        
-       .instagram {
-           color: rgb(255, 0, 98);
-       }
-       
-       .telegram {
-           color: rgb(248, 248, 248)
-       }
-       
-       .linkedin {
-           color: rgb(30, 43, 228)
-       }
     
     
        
@@ -127,7 +137,7 @@
        
        .CV {
            color: rgb(255, 255, 255);
-           background-color: #1ba1e2;
+           background-color: var(--SecendColor);
            margin: 0%;
            padding: 0%;
            border: 0ch;
@@ -152,19 +162,10 @@
        .page {
            margin: 40px;
        }
-       
-       .PageName {
-           margin-top: 1%;
-       }
-       
+
        .LeftCont {
            padding-top: 1px;
        }
-       
-       .Neuroscience {
-           margin-left: 10px;
-       }
-    
        
        .z0-1 {
            margin-left: 10px;
@@ -176,12 +177,33 @@
        }
        
        .Title .footer .myName .CV .era {
-           background-color: #81c700;
-           color: #81c700;
+           background-color: #0056c7;
+           color: #009fc7;
     
        }
+       
+       .github {
+        color: black;
+    }
     
+    .instagram {
+        color: rgb(255, 0, 98);
+    }
     
+    .telegram {
+        color: rgb(248, 248, 248)
+    }
     
+    .linkedin {
+        color: rgb(30, 43, 228)
+    }
+    
+    .footer {
+        background-color: var(--MainColor);
+    }
+    
+    .twitter {
+        color: royalblue;
+    }
     
     
