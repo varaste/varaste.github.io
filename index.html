@@ -16,255 +16,335 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
-<head> <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito"> </head>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito">
+</head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
 <style>
     @font-face {
-font-family: Nunito;
-src: url("./Nunito/Nunito-Regular.ttf") format('truetype');
-}
-@font-face {
-font-family: Nunito;
-src: url("./Nunito/Nunito-Bold.ttf") format('truetype');
-font-weight: bold;
-font-style: normal;
-}
-@font-face {
-font-family: Nunito;
-src: url("./Nunito/Nunito-Italic.ttf") format('truetype');
-font-weight: normal;
-font-style: italic;
-}
+        font-family: Nunito;
+        src: url("./Nunito/Nunito-Regular.ttf") format('truetype');
+    }
+
+    @font-face {
+        font-family: Nunito;
+        src: url("./Nunito/Nunito-Bold.ttf") format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: Nunito;
+        src: url("./Nunito/Nunito-Italic.ttf") format('truetype');
+        font-weight: normal;
+        font-style: italic;
+    }
 
 
 
-   html,
-   body,
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   h6 {
-       font-family: 'Nunito', sans-serif;
-   }
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Nunito', sans-serif;
+        color: var(--TextColor);
 
-   h1 {
-       font-family: 'Nunito', sans-serif;
-       color: rgb(255, 255, 255);
-       background-color: #3a73a9;
-       margin: 2%;
-       padding: 0%;
-       border: 10px;
-       border-color: black;
-       align-content: center;
-       align-items: center;
-       text-align: center;
-   }
+    }
+
+    h1 {
+        font-family: 'Nunito', sans-serif;
+        color: rgb(255, 255, 255);
+        background-color: #3a73a9;
+        margin: 2%;
+        padding: 0%;
+        border: 10px;
+        border-color: black;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
 </style>
+<script>
+    function myFunction() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
 
-    <body class="AryaBG">
-        <!-- Page Container -->
-        <div class="w3-content w3-margin-top" style="max-width:1400px;">
-            <!-- The Grid -->
-            <div class="w3-row-padding">
-                <div class="w3-container myName w3-round-large">
-                    <h1 class="myName w3-hover-opacity">Arya Varaste Nezhad</h1>
+
+
+<body class="AryaBG">
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+        <!-- The Grid -->
+        <div class="w3-row-padding">
+            <div class="w3-container myName w3-round-large">
+                <div class="w3-bar">
+
+                    <h2 class="myName w3-hover-opacity w3-bar-item w3-button" style="margin: 0.5%;">Arya Varaste Nezhad
+                    </h2>
+                    <!-- <button id="colorButton">Change Colors</button>
+                        <script src="script.js"></script> -->
+
+                    <button class="w3-right" id="colorButton" style="margin-top: 2%;font-size:20px"><i
+                            class="fa  fa-moon-o"></i></button>
+                    <script src="script.js"></script>
+
+                    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Contact</a>
+                    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Projects</a>
+                    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Publications</a>
+                    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Bio</a>
+                    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Home</a>
+                    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                        onclick="myFunction()">&#9776;</a>
+
                 </div>
-                <!-- Left Column -->
-                <div class="w3-third">
-                    <div class="w3-card-4 w3-round-large AryaCard">
-                        <div class="w3-display-container LeftCont">
-                        </div>
-                        <br>
-                        <div class="w3-container">
-                            <p class="TEItem">
-                                <i class="fa fa-briefcase fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>Student of Information Technology</p>
-                            <!-- <p class="TEItem">
-                                <i class="fa fa-home fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>Tehran, IRAN</p> -->
-                            <p class="TEItem">
-                                <i class="fa fa-envelope fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>aryavaraste@ut.ac.ir</p>
-                            <!-- <p class="TEItem">
-                                <i class="fa fa-envelope fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>varaste@aut.ac.ir</p> -->
-                            <p class="TEItem"><b>
-                                <i class="fa fa-envelope fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>a.varaste.n@gmail.com</p>
-                            <p class="TEItem"></b>
-                                <i class="fa fa-phone fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>live:a.varaste.n (skype)</p>
-                            <p class="TEItem">
-                                <i class="fa fa-phone fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>+98-936-740-5960</p>
-                            <hr>
-                            <p class="w3-large">
-                            <b><b class="Title w3-hover-opacity">Skills</b></b>
-                            </p>
 
-                            <ul style="text-align: justify; text-justify: inter-word;">
-                                <li><b>Programming Languages:</b>
-                                    <ul style="list-style-type:none">
-                                        <span>Python,&nbsp;</span>
-                                        <span>Java,&nbsp;</span>
-                                        <span>C,&nbsp;</span>
-                                        <span>C++&nbsp;</span>
-                                    </ul>
-                                </li>
+                <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+                    <a href="#" class="w3-bar-item w3-button">Bio</a>
+                    <a href="#" class="w3-bar-item w3-button">Publications</a>
+                    <a href="#" class="w3-bar-item w3-button">Projects</a>
+                    <a href="#" class="w3-bar-item w3-button">Contact</a>
+                </div>
 
-                                <li><b>AI and Data Science:</b>
-                                    <ul style="list-style-type:none">
-                                        <span>NumPy,&nbsp;</span>
-                                        <span>Pandas,&nbsp;</span>
-                                        <span>Matplotlib,&nbsp;</span>
-                                        <span>Scikit-learn,&nbsp;</span>
-                                        <span>NLTK &nbsp;</span>
-                                    </ul>
-                                </li>
-
-                                <li><b>Database Systems:</b>
-                                    <ul style="list-style-type:none">
-                                        <span>MySQL,&nbsp;</span>
-                                        <span>PostgreSQL &nbsp;</span>
-                                    </ul>
-                                </li>
-
-                                <li><b>Hardware:</b>
-                                    <ul style="list-style-type:none">
-                                        <span>Arduino,&nbsp;</span>
-                                        <span>Proteus,&nbsp;</span>
-                                        <span>Assembly,&nbsp;</span>
-                                        <span>VHDl,&nbsp;</span>
-                                        <span>Verilog,&nbsp;</span>
-                                        <span>AVR & ARM Microcontroller,&nbsp;</span>
-                                        <span>FPGA,&nbsp;</span>
-                                    </ul>
-                                </li>
-
-                                <li><b>Web Development:</b>
-                                    <ul style="list-style-type:none">
-                                        <span>HTML,&nbsp;</li>
-                                        <span>CSS,&nbsp;</li>
-                                        <span>JavaScript,&nbsp;</li>
-                                        <span>Vue.js,&nbsp;</li>
-                                        <span>XML,&nbsp;</li>
-                                        <span>jQuery,&nbsp;</li>
-                                        <span>Bootstrap&nbsp;</li>
-                                    </ul>
-                                </li>
-                                <li><b>Miscellaneous:</b>
-                                    <ul style="list-style-type:none">
-                                        <span>UML,&nbsp;</span>
-                                        <span>MS Project,&nbsp;</span>
-                                        <span>Galago,&nbsp;</span>
-                                        <span>Wireshark,&nbsp;</span>
-                                        <span>Ubuntu,&nbsp;</span>
-                                        <span>Jaeger,&nbsp;</span>
-                                        <span>LeTeX</span>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <hr>
-
-                            <p class="w3-large">
-                                <b><b class="Title w3-hover-opacity">Languages</b></b>
-                            </p>
-
-                            <p><b>Persian</b></p>
-                            <div class="w3-light-grey w3-round-xlarge pBar">
-                                <div class="w3-round-xlarge w3-win8-emerald progress-bar-animated    
-                              progress-bar-striped  w3-hover-opacity pBar" style="height:24px; width:85%"></div>
-                            </div>
-                            <hr>
-                            <p><b>English</b></p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge w3-win8-emerald progress-bar-animated    
-                            progress-bar-striped  w3-hover-opacity" style="height:24px; width:70%"></div>
-                            </div>
-                            <hr>
-                            <a href="Arya Varaste CV.pdf">
-                                <img class=" icon1 w3-hover-opacity" src="cv.png"></img>
-                            </a>
-                            <a href="https://ut.ac.ir/en">
-                                <img src="UT-Logo.png" style="width:16% " class="myImage w3-hover-opacity" alt="Avatar"></img>
-                            </a>
-                            <a href="https://eng.ut.ac.ir/en">
-                                <img src="UT-Fanni-Logo.png" style="width:18% " class="myImage w3-hover-opacity" alt="Avatar"></img>
-                            </a>
-                            <a href="https://aut.ac.ir/en">
-                                <img src="aut-logo.png" style="width:45% " class="myImage w3-hover-opacity" alt="Avatar"></img>
-                            </a>
-                            <a href="https://mofidsch.ir/">
-                                <img src="mofid.png" style="width:12%; margin-left: 3%;" class="myImage w3-hover-opacity" alt="Avatar"></img>
-                            </a>
-                            <a href="https://ce.aut.ac.ir/index.php?sid=4&slc_lang=en">
-                                <img src="ce.png" style="width:14% " class="myImage w3-hover-opacity" alt="Avatar"></img>
-                            </a>
-                            <a href="http://www.samsung-aut-tech.com/index.html">
-                                <img src="Samsung AUT Tech.png" style="width:19% " class="myImage w3-hover-opacity Neuroscience" alt="Avatar"></img>
-                            </a>
-
-                            <a href="https://zerotohero.ir/">
-                                <img src="0-1.png" style="width:30% " class="myImage w3-hover-opacity z0-1" alt="Avatar"></img>
-                            </a>
-                            <hr>
-                        </div>
+            </div>
+            <!-- Left Column -->
+            <div class="w3-third">
+                <div class="w3-card-4 w3-round-large AryaCard">
+                    <div class="w3-display-container LeftCont">
                     </div>
                     <br>
-                    <!-- End Left Column -->
+                    <div class="w3-container">
+                        <p class="TEItem">
+                            <i class="fa fa-briefcase fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>Student of
+                            Information Technology
+                        </p>
+                        <!-- <p class="TEItem">
+                                <i class="fa fa-home fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>Tehran, IRAN</p> -->
+                        <p class="TEItem">
+                            <i
+                                class="fa fa-envelope fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>aryavaraste@ut.ac.ir
+                        </p>
+                        <!-- <p class="TEItem">
+                                <i class="fa fa-envelope fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>varaste@aut.ac.ir</p> -->
+                        <p class="TEItem"><b>
+                                <i
+                                    class="fa fa-envelope fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>a.varaste.n@gmail.com
+                        </p>
+                        <p class="TEItem"></b>
+                            <i
+                                class="fa fa-phone fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>live:a.varaste.n
+                            (skype)
+                        </p>
+                        <p class="TEItem">
+                            <i
+                                class="fa fa-phone fa-fw w3-margin-right w3-large ii w3-hover-opacity"></i>+98-936-740-5960
+                        </p>
+                        <hr>
+                        <p class="w3-large">
+                            <b><b class="Title w3-hover-opacity">Skills</b></b>
+                        </p>
+
+                        <ul style="text-align: justify; text-justify: inter-word;">
+                            <li><b>Programming Languages:</b>
+                                <ul style="list-style-type:none">
+                                    <span>Python,&nbsp;</span>
+                                    <span>Java,&nbsp;</span>
+                                    <span>C,&nbsp;</span>
+                                    <span>C++&nbsp;</span>
+                                </ul>
+                            </li>
+
+                            <li><b>AI and Data Science:</b>
+                                <ul style="list-style-type:none">
+                                    <span>NumPy,&nbsp;</span>
+                                    <span>Pandas,&nbsp;</span>
+                                    <span>Matplotlib,&nbsp;</span>
+                                    <span>Scikit-learn,&nbsp;</span>
+                                    <span>NLTK &nbsp;</span>
+                                </ul>
+                            </li>
+
+                            <li><b>Database Systems:</b>
+                                <ul style="list-style-type:none">
+                                    <span>MySQL,&nbsp;</span>
+                                    <span>PostgreSQL &nbsp;</span>
+                                </ul>
+                            </li>
+
+                            <li><b>Hardware:</b>
+                                <ul style="list-style-type:none">
+                                    <span>Arduino,&nbsp;</span>
+                                    <span>Proteus,&nbsp;</span>
+                                    <span>Assembly,&nbsp;</span>
+                                    <span>VHDl,&nbsp;</span>
+                                    <span>Verilog,&nbsp;</span>
+                                    <span>AVR & ARM Microcontroller,&nbsp;</span>
+                                    <span>FPGA,&nbsp;</span>
+                                </ul>
+                            </li>
+
+                            <li><b>Web Development:</b>
+                                <ul style="list-style-type:none">
+                                    <span>HTML,&nbsp;
+                            </li>
+                            <span>CSS,&nbsp;</li>
+                                <span>JavaScript,&nbsp;</li>
+                                    <span>Vue.js,&nbsp;</li>
+                                        <span>XML,&nbsp;</li>
+                                            <span>jQuery,&nbsp;</li>
+                                                <span>Bootstrap&nbsp;</li>
+                        </ul>
+                        </li>
+                        <li><b>Miscellaneous:</b>
+                            <ul style="list-style-type:none">
+                                <span>UML,&nbsp;</span>
+                                <span>MS Project,&nbsp;</span>
+                                <span>Galago,&nbsp;</span>
+                                <span>Wireshark,&nbsp;</span>
+                                <span>Ubuntu,&nbsp;</span>
+                                <span>Jaeger,&nbsp;</span>
+                                <span>LeTeX</span>
+                            </ul>
+                        </li>
+                        </ul>
+                        <hr>
+
+                        <p class="w3-large">
+                            <b><b class="Title w3-hover-opacity">Languages</b></b>
+                        </p>
+
+                        <p><b>Persian</b></p>
+                        <div class="w3-light-grey w3-round-xlarge pBar">
+                            <div class="w3-round-xlarge w3-win8-emerald progress-bar-animated    
+                              progress-bar-striped  w3-hover-opacity pBar" style="height:24px; width:85%"></div>
+                        </div>
+                        <hr>
+                        <p><b>English</b></p>
+                        <div class="w3-light-grey w3-round-xlarge">
+                            <div class="w3-round-xlarge w3-win8-emerald progress-bar-animated    
+                            progress-bar-striped  w3-hover-opacity" style="height:24px; width:70%"></div>
+                        </div>
+                        <hr>
+                        <a href="Arya Varaste CV.pdf">
+                            <img class=" icon1 w3-hover-opacity" src="cv.png"></img>
+                        </a>
+                        <a href="https://ut.ac.ir/en">
+                            <img src="UT-Logo.png" style="width:16% " class="myImage w3-hover-opacity"
+                                alt="Avatar"></img>
+                        </a>
+                        <a href="https://eng.ut.ac.ir/en">
+                            <img src="UT-Fanni-Logo.png" style="width:18% " class="myImage w3-hover-opacity"
+                                alt="Avatar"></img>
+                        </a>
+                        <a href="https://aut.ac.ir/en">
+                            <img src="aut-logo.png" style="width:45% " class="myImage w3-hover-opacity"
+                                alt="Avatar"></img>
+                        </a>
+                        <a href="https://mofidsch.ir/">
+                            <img src="mofid.png" style="width:12%; margin-left: 3%;" class="myImage w3-hover-opacity"
+                                alt="Avatar"></img>
+                        </a>
+                        <a href="https://ce.aut.ac.ir/index.php?sid=4&slc_lang=en">
+                            <img src="ce.png" style="width:14% " class="myImage w3-hover-opacity" alt="Avatar"></img>
+                        </a>
+                        <a href="http://www.samsung-aut-tech.com/index.html">
+                            <img src="Samsung AUT Tech.png" style="width:19% "
+                                class="myImage w3-hover-opacity Neuroscience" alt="Avatar"></img>
+                        </a>
+
+                        <a href="https://zerotohero.ir/">
+                            <img src="0-1.png" style="width:30% " class="myImage w3-hover-opacity z0-1"
+                                alt="Avatar"></img>
+                        </a>
+                        <hr>
+                    </div>
                 </div>
+                <br>
+                <!-- End Left Column -->
+            </div>
 
-                <!-- Right Column -->
-                <div class="w3-twothird">
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
-                        <h2 class=" w3-padding-16">
-                            <b class="Title">Education</b>
-                        </h2>
+            <!-- Right Column -->
+            <div class="w3-twothird">
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">Education</b>
+                    </h2>
 
-                        <div class="w3-container">
-                            <a href="https://ut.ac.ir/en">
-                                <h4 class="subTitle" style="margin: 0%; padding:0%">
-                                    <b>University of Tehran</b>
-                                </h4>
-                            </a>
+                    <div class="w3-container">
+                        <a href="https://ut.ac.ir/en">
+                            <h4 class="subTitle" style="margin: 0%; padding:0%">
+                                <b>University of Tehran</b>
+                            </h4>
+                        </a>
 
-                            <a href="https://www.topuniversities.com/universities/university-tehran">
-                                <i><p class="era" style="margin: 0%; padding:0%">(Ranked <b>360</b> in QS World University Rankings 2024)</p></i>
-                            </a>
+                        <a href="https://www.topuniversities.com/universities/university-tehran">
+                            <i>
+                                <p class="era" style="margin: 0%; padding:0%">(Ranked <b>360</b> in QS World University
+                                    Rankings 2024)</p>
+                            </i>
+                        </a>
 
-                            <h7 class="">
-                                <b>M.Sc. Student of Information Technology</b>
-                                <br>
-                                <b style="margin: 0%;">Thesis: Depression and Anxiety Detection through Learners’ Behavior and Results Analysis in Electronic Learning Systems</b>
-                            </h7>
+                        <h7 class="">
+                            <b>M.Sc. Student of Information Technology</b>
+                            <br>
+                            <b style="margin: 0%;">Thesis: Depression and Anxiety Detection through Learners’ Behavior
+                                and Results Analysis in Electronic Learning Systems</b>
+                        </h7>
 
-                            <h6 class="era " style="margin: 0%;">
-                                <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[September 2021 – present]</h6>
+                        <h6 class="era " style="margin: 0%;">
+                            <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[September 2021 –
+                            present]
+                        </h6>
 
-                         <p>Overall GPA: <b>3.9</b>/4</br> 
+                        <p>Overall GPA: <b>3.9</b>/4</br>
                             <hr>
-                        </div>
+                    </div>
 
-                        <div class="w3-container">
-                            <a href="https://aut.ac.ir/en">
-                                <h4 class="subTitle" style="margin: 0%; padding:0%">
-                                    <b>Amirkabir University of Technology (Tehran Polytechnic)</b>
-                                </h4>
-                            </a>
+                    <div class="w3-container">
+                        <a href="https://aut.ac.ir/en">
+                            <h4 class="subTitle" style="margin: 0%; padding:0%">
+                                <b>Amirkabir University of Technology (Tehran Polytechnic)</b>
+                            </h4>
+                        </a>
 
-                            <a href="https://www.topuniversities.com/universities/amirkabir-university-technology">
-                                <i ><p class="era" style="margin: 0%; padding:0%">(Ranked <b>375</b> in QS World University Rankings 2024)</p></i>
-                            </a>
+                        <a href="https://www.topuniversities.com/universities/amirkabir-university-technology">
+                            <i>
+                                <p class="era" style="margin: 0%; padding:0%">(Ranked <b>375</b> in QS World University
+                                    Rankings 2024)</p>
+                            </i>
+                        </a>
 
-                            <h7 class="">
-                                <b>B.Sc. in Computer Engineering, 2021</b>
-                                <br>
-                                <b style="margin: 0%;">Thesis: Design of a Dentigerous Lesion Detection System from Radiographic Images using Deep Learning Methods</b>
-                            </h7>
+                        <h7 class="">
+                            <b>B.Sc. in Computer Engineering, 2021</b>
+                            <br>
+                            <b style="margin: 0%;">Thesis: Design of a Dentigerous Lesion Detection System from
+                                Radiographic Images using Deep Learning Methods</b>
+                        </h7>
 
-                            <h6 class="era" style="margin: 0%;">
-                                <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[2016 – 2021]</h6>
-                            <p>Overall GPA: 3.59/4</br>
+                        <h6 class="era" style="margin: 0%;">
+                            <i class="fa fa-calendar fa-fw w3-margin-right ii w3-hover-opacity"></i>[2016 – 2021]
+                        </h6>
+                        <p>Overall GPA: 3.59/4</br>
                             <!-- <hr> -->
-                        </div>
+                    </div>
 
-                        <!-- <div class="w3-container">
+                    <!-- <div class="w3-container">
                             <a href="https://mofidsch.ir/">
                                 <h4 class="subTitle" style="margin: 0%; padding:0%">
                                     <b style="margin: 0%; padding:0%">Mofid High School, Tehran, Iran.</b>
@@ -280,56 +360,66 @@ font-style: italic;
                             <p>Overall GPA: 19.28/20</p>
                             </hr>
                         </div> -->
+                </div>
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">Research Interests</b>
+                    </h2>
+                    <div style="column-count:2;">
+                        <ul style="list-style-type:circle; padding-bottom: 3%;">
+                            <li><b>Data Analytics and Visualization</b></li>
+                            <li><b>Data Mining</b></li>
+                            <li><b>Machine Learning</b></li>
+                            <li><b>Health Informatics</b></li>
+                            <li><b>Human-Computer Interaction</b></li>
+                            <li><b>Trustworthy AI</b></li>
+                        </ul>
                     </div>
-
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
-                        <h2 class=" w3-padding-16">
-                            <b class="Title">Research Interests</b>
-                        </h2>
-                        <div style="column-count:2;">
-                            <ul style="list-style-type:circle; padding-bottom: 3%;">
-                                <li><b>Data Analytics and Visualization</b></li>
-                                <li><b>Data Mining</b></li>
-                                <li><b>Machine Learning</b></li>
-                                <li><b>Health Informatics</b></li>
-                                <li><b>Human-Computer Interaction</b></li>
-                                <li><b>Trustworthy AI</b></li>
-                            </ul>
-                        </div>
-                    </div>
+                </div>
 
 
 
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
-                        <h2 class=" w3-padding-16">
-                            <b class="Title">Publications</b>
-                        </h2>
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">Publications</b>
+                    </h2>
 
-                        <ol type="1">
+                    <ol type="1">
 
-                            <li>
-                                <b>MBTI-Personality Types and Traits of Professional Software Engineers</b> 
-                                <a href=""><img src="https://img.shields.io/badge/Accepted-success"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
-                            </li>
-                            <hr>
-                            <li>
-                                <b>Developing Multi-Genre Games to Detect Depression and Anxiety Disorders</b> 
-                                <a href=""><img src="https://img.shields.io/badge/Submitted-c4c102"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
-                                <p>Assess and quantify player behavior throughout various stages of a video game to identify signs of depression and anxiety disorders. This approach reduces reliance on questionnaires for diagnosing these conditions.</p>
+                        <li>
+                            <b>MBTI-Personality Types and Traits of Professional Software Engineers</b>
+                            <a href=""><img src="https://img.shields.io/badge/Accepted-success"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
+                        </li>
+                        <hr>
+                        <li>
+                            <b>Developing Multi-Genre Games to Detect Depression and Anxiety Disorders</b>
+                            <a href=""><img src="https://img.shields.io/badge/Submitted-c4c102"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
+                            <p>Assess and quantify player behavior throughout various stages of a video game to identify
+                                signs of depression and anxiety disorders. This approach reduces reliance on
+                                questionnaires for diagnosing these conditions.</p>
 
-                            </li>
-                            <hr>
-                            <li>
-                                <b>Detection of Dentigerous Lesion from Radiographic Images using Deep Learning Methods</b>
-                                <a href="https://github.com/varaste/varaste.github.io/blob/master/Assets/Varaste-Tavasoli-Thesis-V-4.3.pdf"><img src="https://img.shields.io/badge/-B.Sc. Thesis-22cccc"></img></a>
-                                <a href="https://github.com/varaste/varaste.github.io/blob/master/Assets/Varaste-Tavasoli-Thesis-V-4.3.pdf"><img src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
-                                <p>Detect dental cysts from dental radiography images by building a web application and mobile application. Involves collecting dental images dataset and labeling them, then constructing a neural network with transfer learning to classify infected images. </p>
-                            </li>
+                        </li>
+                        <hr>
+                        <li>
+                            <b>Detection of Dentigerous Lesion from Radiographic Images using Deep Learning Methods</b>
+                            <a
+                                href="https://github.com/varaste/varaste.github.io/blob/master/Assets/Varaste-Tavasoli-Thesis-V-4.3.pdf"><img
+                                    src="https://img.shields.io/badge/-B.Sc. Thesis-22cccc"></img></a>
+                            <a
+                                href="https://github.com/varaste/varaste.github.io/blob/master/Assets/Varaste-Tavasoli-Thesis-V-4.3.pdf"><img
+                                    src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
+                            <p>Detect dental cysts from dental radiography images by building a web application and
+                                mobile application. Involves collecting dental images dataset and labeling them, then
+                                constructing a neural network with transfer learning to classify infected images. </p>
+                        </li>
 
 
-                            <!-- <li>
+                        <!-- <li>
                                 Wearable sensors and technologies and their applications in medicine
                                 <a href=""><img src="https://img.shields.io/badge/-Research and Technical Presentation-22cccc"></img></a>
                                 <a href=""><img src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
@@ -344,140 +434,160 @@ font-style: italic;
                                 <a href=""><img src="https://img.shields.io/badge/-Software Engineering II-red"></img></a>
                                 <a href=""><img src="https://img.shields.io/badge/-PDF-informational?logo=Adobe Acrobat Reader&logoColor=white&labelColor=red"></img></a>
                             </li> -->
-                        </ol>
-                    </div>
+                    </ol>
+                </div>
 
 
-                 
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
-                        <h2 class="w3-text-grey w3-padding-16">
-                            <b class="Title">Teaching Experience</b>
-                        </h2>
-                        <div class="w3-container">
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class="w3-text-grey w3-padding-16">
+                        <b class="Title">Teaching Experience</b>
+                    </h2>
+                    <div class="w3-container">
 
                         <h5 class="TEItem" style="padding-left: 0%;">
-                            <i class="fa fa-university fa-fw w3-large ii w3-hover-opacity" ></i>
-                            <a class="subTitle Refh4" href="https://ece.ut.ac.ir/en/ece" >
+                            <i class="fa fa-university fa-fw w3-large ii w3-hover-opacity"></i>
+                            <a class="subTitle Refh4" href="https://ece.ut.ac.ir/en/ece">
                                 Department Electrical and Computer Engineering, <b>University of Tehran</b>
                             </a>
                         </h5>
                         <p></p>
 
-                            <h6 class="subTitle"><b> <span class="TA-CName">Master Seminar,</span></b><span class="TEItem">Dr. Fattaneh Taghiyareh</span> <b class="era">[Spring 2023] </b>
-                            </h6>
-                            <hr>
-                            
+                        <h6 class="subTitle"><b> <span class="TA-CName">Master Seminar,</span></b><span
+                                class="TEItem">Dr. Fattaneh Taghiyareh</span> <b class="era">[Spring 2023] </b>
+                        </h6>
+                        <hr>
+
                         <h5 class="TEItem" style="padding-left: 0%;">
-                            <i class="fa fa-university fa-fw w3-large ii w3-hover-opacity" ></i>
+                            <i class="fa fa-university fa-fw w3-large ii w3-hover-opacity"></i>
                             <a class="subTitle Refh4" href="https://ce.aut.ac.ir/">
                                 Department Computer Engineering, <b>Amirkabir University of Technology</b>
                             </a>
                         </h5>
                         <p></p>
-                            <h6 class="subTitle"><b><span class="TA-CName">Embedded and Real-Time Systems Design,</span></b> <span class="TEItem">Dr. Hamed Farbeh</span><b class="era">[Spring 2021] - [Spring 2023]</b></h6>
-                            
-                            <hr>
-                            
-                            <h6 class="subTitle"><b><span class="TA-CName">Algorithm Design</span></b></h6>
-                            <p class="TEItem">Instructor: Dr. Alireza Bagheri <b style="margin:0%" class="era">[Fall 2020]</b> </p class="TEItem"> 
-                            <p class="TEItem">Instructor: Dr. Mahdi Javanmardi <b style="margin:0%" class="era">[Fall 2020]</b> </p class="TEItem">  </p class="TEItem">
-                                <hr>
+                        <h6 class="subTitle"><b><span class="TA-CName">Embedded and Real-Time Systems Design,</span></b>
+                            <span class="TEItem">Dr. Hamed Farbeh</span><b class="era">[Spring 2021] - [Spring 2023]</b>
+                        </h6>
+
+                        <hr>
+
+                        <h6 class="subTitle"><b><span class="TA-CName">Algorithm Design</span></b></h6>
+                        <p class="TEItem">Instructor: Dr. Alireza Bagheri <b style="margin:0%" class="era">[Fall
+                                2020]</b> </p class="TEItem">
+                        <p class="TEItem">Instructor: Dr. Mahdi Javanmardi <b style="margin:0%" class="era">[Fall
+                                2020]</b> </p class="TEItem">
+                        </p class="TEItem">
+                        <hr>
 
 
-                            <h6 class="subTitle"><b><span class="TA-CName">Database,</span></b><span class="TEItem">Dr. Saeedeh Momtazi</span class="TEItem"> <b class="era">[Fall 2020]</b> </h6>
+                        <h6 class="subTitle"><b><span class="TA-CName">Database,</span></b><span class="TEItem">Dr.
+                                Saeedeh Momtazi</span class="TEItem"> <b class="era">[Fall 2020]</b> </h6>
 
-                                <hr>
+                        <hr>
 
-                            <h6 class="subTitle"><b><span class="TA-CName">Software Engineering 2,</span></b><span class="TEItem">Dr. Masoumeh Taromirad‬</span class="TEItem"><b class="era">[Fall 2020]</b></h6>
-                            
-                                <hr>
+                        <h6 class="subTitle"><b><span class="TA-CName">Software Engineering 2,</span></b><span
+                                class="TEItem">Dr. Masoumeh Taromirad‬</span class="TEItem"><b class="era">[Fall
+                                2020]</b></h6>
 
-
-                            <h6 class="subTitle"><b><span class="TA-CName">Microprocessors and Assembly Language,</span></b> <span class="TEItem">Dr. Hamed Farbeh</span class="TEItem"> </h6>
-                            
-                                <b class="era">[Fall 2019]&nbsp; - &nbsp;[Spring 2020] &nbsp;- &nbsp;[Fall 2020] - [Spring 2023]</b>
-
-                                <hr>
-
-                            <h6 class="subTitle"><b><span class="TA-CName">Computer Architecture,</span></b><span class="TEItem">Dr. Hamed Farbeh</span class="TEItem"></h6>
-
-                            <h6 class="era">
-                                <b>[Spring 2019]&nbsp; -&nbsp; [Fall 2019]&nbsp; -&nbsp; [Spring 2020]&nbsp; -&nbsp; [Spring 2022]</b>
-                            </h6>
-                            <hr>
-
-                            <h6 class="subTitle"><b><span class="TA-CName">Research and Technical Presentation,</span></b><span class="TEItem">Dr. Reza Safabakhsh</span class="TEItem"><b class="era">[Spring 2020]</b></h6>
-                            
-                                <hr>
-
-                            <h6 class="subTitle"><b><span class="TA-CName">Computer Network,</span></b></h6>
-                            <p class="TEItem">Instructor: Dr. Masoud Sabaei <b class="era">[Spring 2020]</b> </p class="TEItem"> 
+                        <hr>
 
 
-                            <p class="TEItem">Instructor: Dr. Poya Hejazi <b class="era">[Spring 2020]</b> </p class="TEItem"> 
+                        <h6 class="subTitle"><b><span class="TA-CName">Microprocessors and Assembly Language,</span></b>
+                            <span class="TEItem">Dr. Hamed Farbeh</span class="TEItem"> </h6>
 
-                                <hr>
+                        <b class="era">[Fall 2019]&nbsp; - &nbsp;[Spring 2020] &nbsp;- &nbsp;[Fall 2020] - [Spring
+                            2023]</b>
 
-                            <h6 class="subTitle"><b><span class="TA-CName">Internet of Things,</span></b><span class="TEItem">Dr. Mahdi Rasti</span class="TEItem"> <b class="era">[Fall 2020]</b> </h6>
-                            
-                                <hr>
+                        <hr>
 
-                            <h6 class="subTitle"><b><span class="TA-CName">Internet Engineering,</span></b><span class="TEItem">Parham Alvani</span class="TEItem"><b class="era">[Fall 2020]</b></h6>
-                            <p></p>
-                        </div>
+                        <h6 class="subTitle"><b><span class="TA-CName">Computer Architecture,</span></b><span
+                                class="TEItem">Dr. Hamed Farbeh</span class="TEItem"></h6>
+
+                        <h6 class="era">
+                            <b>[Spring 2019]&nbsp; -&nbsp; [Fall 2019]&nbsp; -&nbsp; [Spring 2020]&nbsp; -&nbsp; [Spring
+                                2022]</b>
+                        </h6>
+                        <hr>
+
+                        <h6 class="subTitle"><b><span class="TA-CName">Research and Technical
+                                    Presentation,</span></b><span class="TEItem">Dr. Reza Safabakhsh</span
+                                class="TEItem"><b class="era">[Spring 2020]</b></h6>
+
+                        <hr>
+
+                        <h6 class="subTitle"><b><span class="TA-CName">Computer Network,</span></b></h6>
+                        <p class="TEItem">Instructor: Dr. Masoud Sabaei <b class="era">[Spring 2020]</b> </p
+                            class="TEItem">
+
+
+                        <p class="TEItem">Instructor: Dr. Poya Hejazi <b class="era">[Spring 2020]</b> </p
+                            class="TEItem">
+
+                        <hr>
+
+                        <h6 class="subTitle"><b><span class="TA-CName">Internet of Things,</span></b><span
+                                class="TEItem">Dr. Mahdi Rasti</span class="TEItem"> <b class="era">[Fall 2020]</b>
+                        </h6>
+
+                        <hr>
+
+                        <h6 class="subTitle"><b><span class="TA-CName">Internet Engineering,</span></b><span
+                                class="TEItem">Parham Alvani</span class="TEItem"><b class="era">[Fall 2020]</b></h6>
+                        <p></p>
+                    </div>
+                </div>
+
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">Selected Coursework</b>
+                    </h2>
+                    <div style="column-count:2; padding-bottom: 1%;">
+                        <ul type="1">
+                            <li>Data Analytics and Visualization <b>[M.Sc.]</b> (<b>18.45</b>/20)</li>
+                            <li>Trustworthy AI <b>[M.Sc.]</b> (<b>18</b>/20)</li>
+                            <li>Digital Transfornation <b>[M.Sc.]</b> (<b>18</b>/20)</li>
+                            <li>Intelligent Information Retrieval <b>[M.Sc.]</b> (<b>17.9</b>/20)</li>
+                            <li>Information Technology Management <b>[M.Sc.]</b> (<b>19</b>/20)</li>
+                            <li>Seminar <b>[M.Sc.]</b> (<b>20</b>/20)</li>
+                            <li>Internet Measurement <b>[M.Sc.]</b> (<b>19.5</b>/20)</li>
+                            <li>Database Design(<b>17.2</b>/20)</li>
+                            <li>Cloud Computing (<b>18.21</b>/20)</li>
+                            <li>Computer Networks (<b>18.4</b>/20)</li>
+                            <li>Information Security (17.2/20)</li>
+
+                            <li>Algorithm Design (<b>19.75</b>/20)</li>
+                            <li>Engineering Statistics (<b>19.5</b>/20)</li>
+                            <li>Compiler Design (<b>20</b>/20)</li>
+                            <li>Information Technology Project Management (<b>20</b>/20)</li>
+                            <li>Software Engineering I (<b>18</b>/20)</li>
+                            <li>Software Engineering II (<b>18.5</b>/20)</li>
+                            <li>Engineering Ethics (<b>19.5</b>/20)</li>
+                            <li>Microprocessor and Assembly Language (<b>17.5</b>/20)</li>
+                            <li>Operating Systems (<b>18.1</b>/20)</li>
+                            <li>Computer Architecture (<b>18.4</b>/20)</li>
+                            <li>Digital Electronics (<b>18</b>/20)</li>
+
+
+                            <!-- <li>B.Sc. Thesis (<b>20</b>/20)</li> -->
+                            <!-- <li>B.Sc. Internship (<b>19</b>/20)</li> -->
+                            <!-- <li>Startup Development (<b>20</b>/20)</li> -->
+                            <!-- <li>Embdded and Real-Time Systems (<b>20</b>/20)</li> -->
+                            <!-- <li>Internet of Things (<b>19</b>/20)</li> -->
+                            <!-- <li>Computer Graphics	(<b>19.5</b>/20)</li> -->
+                            <!-- <li>Research and Technical Presentation	(17/20)</li> -->
+                            <!-- <li>Technical English	(17/20)</li> -->
+                            <!-- <li>English for the Students of Engineering	(16.5/20)</li> -->
+                            <!-- <li>Differential Equations	(16.9/20)</li> -->
+
+                        </ul>
                     </div>
 
-
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large" >
-                        <h2 class=" w3-padding-16">
-                            <b class="Title">Selected Coursework</b>
-                        </h2>
-                        <div style="column-count:2; padding-bottom: 1%;">
-                            <ul type="1">
-                                <li>Data Analytics and Visualization <b>[M.Sc.]</b> (<b>18.45</b>/20)</li>   
-                                <li>Trustworthy AI <b>[M.Sc.]</b> (<b>18</b>/20)</li>
-                                <li>Digital Transfornation <b>[M.Sc.]</b> (<b>18</b>/20)</li>
-                                <li>Intelligent Information Retrieval <b>[M.Sc.]</b> (<b>17.9</b>/20)</li>
-                                <li>Information Technology Management <b>[M.Sc.]</b> (<b>19</b>/20)</li>
-                                <li>Seminar <b>[M.Sc.]</b> (<b>20</b>/20)</li>
-                                <li>Internet Measurement <b>[M.Sc.]</b> (<b>19.5</b>/20)</li>
-                                <li>Database Design(<b>17.2</b>/20)</li>
-                                <li>Cloud Computing (<b>18.21</b>/20)</li>
-                                <li>Computer Networks (<b>18.4</b>/20)</li>
-                                <li>Information Security (17.2/20)</li>
-
-                                <li>Algorithm Design (<b>19.75</b>/20)</li>
-                                <li>Engineering Statistics  (<b>19.5</b>/20)</li>
-                                <li>Compiler Design (<b>20</b>/20)</li>
-                                <li>Information Technology Project Management (<b>20</b>/20)</li>
-                                <li>Software Engineering I	(<b>18</b>/20)</li>
-                                <li>Software Engineering II	(<b>18.5</b>/20)</li>
-                                <li>Engineering Ethics	(<b>19.5</b>/20)</li>
-                                <li>Microprocessor and Assembly Language	(<b>17.5</b>/20)</li>
-                                <li>Operating Systems	(<b>18.1</b>/20)</li>
-                                <li>Computer Architecture	(<b>18.4</b>/20)</li>
-                                <li>Digital Electronics (<b>18</b>/20)</li>
-
-
-                                <!-- <li>B.Sc. Thesis (<b>20</b>/20)</li> -->
-                                <!-- <li>B.Sc. Internship (<b>19</b>/20)</li> -->
-                                <!-- <li>Startup Development (<b>20</b>/20)</li> -->
-                                <!-- <li>Embdded and Real-Time Systems (<b>20</b>/20)</li> -->
-                                <!-- <li>Internet of Things (<b>19</b>/20)</li> -->
-                                <!-- <li>Computer Graphics	(<b>19.5</b>/20)</li> -->
-                                <!-- <li>Research and Technical Presentation	(17/20)</li> -->
-                                <!-- <li>Technical English	(17/20)</li> -->
-                                <!-- <li>English for the Students of Engineering	(16.5/20)</li> -->
-                                <!-- <li>Differential Equations	(16.9/20)</li> -->
-
-                            </ul>
-                        </div>
-                        
-                    </div>
+                </div>
 
 
 
-                    <!-- <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                <!-- <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
                         <h2 class="w3-text-grey w3-padding-16">
                             <b class="Title">Research & Work Experience</b>
                         </h2>
@@ -534,217 +644,268 @@ font-style: italic;
                     </div> -->
 
 
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
-                        <h2 class=" w3-padding-16">
-                            <b class="Title">Selected Projects</b>
-                        </h2>
-                        <ul type="1">
-                            <li>Enhancing Race Fairness in Classification with a Zero-Sum Game <b></b>
-                                <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
-                                <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">Selected Projects</b>
+                    </h2>
+                    <ul type="1">
+                        <li>Enhancing Race Fairness in Classification with a Zero-Sum Game <b></b>
+                            <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
+                            <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
 
 
-                            <li>Explaining Black-Box Models with D-RISE and LIME Methods <b></b>
-                                <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
-                                <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                        <li>Explaining Black-Box Models with D-RISE and LIME Methods <b></b>
+                            <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
+                            <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Improving the Interpretability of Neural Networks for Life Expectancy Data using SHAP <b></b>
-                                <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
-                                <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                        <li>Improving the Interpretability of Neural Networks for Life Expectancy Data using SHAP
+                            <b></b>
+                            <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
+                            <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Detecting OOD Images in CIFAR-10 Dataset in Inference Time <b></b>
-                                <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
-                                <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                        <li>Detecting OOD Images in CIFAR-10 Dataset in Inference Time <b></b>
+                            <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
+                            <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Enhancing Neural Network Robustness Against FGSM Adversary Attack <b></b>
-                                <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
-                                <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                        <li>Enhancing Neural Network Robustness Against FGSM Adversary Attack <b></b>
+                            <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
+                            <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Backdoor Attack on Image Classification <b></b>
-                                <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
-                                <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
-
-
-                            <li>Clustering on Hospital Readmission Rates of 70,000 Patient Records 
-                                <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
-                                <a href="https://github.com/varaste/Clustering-on-Hospital-Readmission-Rates-Analysis-of-70000-Clinical-Database-Patient-Records"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                        <li>Backdoor Attack on Image Classification <b></b>
+                            <a href=""><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
+                            <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
 
-                            <li>Preprocessing and Visualization of Data on COVID-19 by OWID 
-                                <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
-                                <a href="https://github.com/varaste/Preprocessing-and-Visualization-on-Data-on-COVID-19-by-Our-World-in-Data"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                        <li>Clustering on Hospital Readmission Rates of 70,000 Patient Records
+                            <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
+                            <a
+                                href="https://github.com/varaste/Clustering-on-Hospital-Readmission-Rates-Analysis-of-70000-Clinical-Database-Patient-Records"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Process Mining on Patient-Treatment Dataset 
-                                <a href=""><img src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>  
-                            
-                            <li>Association Rule Mining on Market Basket 
-                                <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
-                                <a href="https://github.com/varaste/Association-Rule-Mining-on-Market-Basket"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
 
-                            <li>Modeling Gorkha Earthquake Damage 
-                                <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
-                                <a href="https://github.com/varaste/Modeling-Gorkha-Earthquake-Damage"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                        <li>Preprocessing and Visualization of Data on COVID-19 by OWID
+                            <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
+                            <a
+                                href="https://github.com/varaste/Preprocessing-and-Visualization-on-Data-on-COVID-19-by-Our-World-in-Data"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Sentiment Classification on IMDB Movie Reviews 
-                                <a href=""><img src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
-                                <a href="https://github.com/varaste/Sentiment-Classification-on-IMDB-Movie-Reviews"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li> 
+                        <li>Process Mining on Patient-Treatment Dataset
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Customers Retention Rate and Cohort Analysis on Store Data 
-                                <a href=""><img src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>  
+                        <li>Association Rule Mining on Market Basket
+                            <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
+                            <a href="https://github.com/varaste/Association-Rule-Mining-on-Market-Basket"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Word Associations and Clustering on Reuters 
-                                <a href=""><img src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
-                                <a href="https://github.com/varaste/Word-Associations-and-Clustering-on-Reuters"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li> 
+                        <li>Modeling Gorkha Earthquake Damage
+                            <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
+                            <a href="https://github.com/varaste/Modeling-Gorkha-Earthquake-Damage"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Document Ranking with Galago 
-                                <a href=""><img src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
-                                <a href="https://github.com/varaste/Document-Ranking-with-Galago"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>  
+                        <li>Sentiment Classification on IMDB Movie Reviews
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
+                            <a href="https://github.com/varaste/Sentiment-Classification-on-IMDB-Movie-Reviews"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>EDA on the New York Taxi Dataset 
-                                <a href=""><img src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>  
-                            
-                            <li>Crawling Gold and Currency Market
-                                <a href=""><img src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
-         
-                            <li>Smoothing Retrieval Function and Pseudo Relevance Feedback
-                                <a href=""><img src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
-                                <a href="https://github.com/varaste/Smoothing-Retrieval-Function-and-Pseudo-Relevance-Feedback"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>                            
-                           
-                            <li>Topic Modeling on Associated Press Dataset
-                                <a href=""><img src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
-                                <a href="https://github.com/varaste/Topic-Modeling-on-Associated-Press-Dataset"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                        <li>Customers Retention Rate and Cohort Analysis on Store Data
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>NUMEX Interpreter
-                                <a href=""><img src="https://img.shields.io/badge/-Concepts of Programming Languages-ff69b3"></img></a>
-                                <a href="https://github.com/varaste/NUMEX-Interpreter"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>
+                        <li>Word Associations and Clustering on Reuters
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
+                            <a href="https://github.com/varaste/Word-Associations-and-Clustering-on-Reuters"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
 
-                            <li>Crawling Washington Weather
-                                <a href=""><img src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
-                            </li>     
-                            
-                            <!-- <li>
+                        <li>Document Ranking with Galago
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
+                            <a href="https://github.com/varaste/Document-Ranking-with-Galago"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
+
+                        <li>EDA on the New York Taxi Dataset
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
+
+                        <li>Crawling Gold and Currency Market
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
+
+                        <li>Smoothing Retrieval Function and Pseudo Relevance Feedback
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
+                            <a
+                                href="https://github.com/varaste/Smoothing-Retrieval-Function-and-Pseudo-Relevance-Feedback"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
+
+                        <li>Topic Modeling on Associated Press Dataset
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Intelligent Information Retrieval-yellow"></img></a>
+                            <a href="https://github.com/varaste/Topic-Modeling-on-Associated-Press-Dataset"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
+
+                        <li>NUMEX Interpreter
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Concepts of Programming Languages-ff69b3"></img></a>
+                            <a href="https://github.com/varaste/NUMEX-Interpreter"><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
+
+                        <li>Crawling Washington Weather
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Data Analytics & Visualization-blue"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
+                        </li>
+
+                        <!-- <li>
                                 Detection of Dentigerous lesion from Radiographic images using Deep learning methods <b></b>
                                 <a href=""><img src="https://img.shields.io/badge/-B.Sc. Thesis-success"></img></a>
                                 <a href="https://github.com/varaste/Dentigros-Lesion-detection-system-from-Radiographic"><img src="https://img.shields.io/badge/-Github  -informational?logo=GitHub&logoColor=white&labelColor=black"></img></a>
                             </li> -->
-                            
-                        </ul>
-                    </div>
+
+                    </ul>
+                </div>
 
 
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
-                        <h2 class=" w3-padding-16">
-                            <b class="Title">Presentations</b>
-                        </h2>
-                        <ol type="1">
-                            <li>Detection of Dentigerous lesion from Radiographic images using Deep learning methods
-                                <a href=""><img src="https://img.shields.io/badge/-B.Sc. Thesis-success"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
-                            </li>
-                            <li>Explainable Artificial Intelligence for Mental Health Through Transparency and Interpretability for Understandability
-                                <a href="https://github.com/varaste/varaste.github.io/blob/master/Assets/Arya%20Varaste-Explainable%20Artificial%20Intelligence%20for%20Mental%20Health%20Through%20Transparency%20and%20Interpretability%20for%20Understandability.pptx"><img src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
-                                <a href="https://github.com/varaste/varaste.github.io/blob/master/Assets/Arya%20Varaste-Explainable%20Artificial%20Intelligence%20for%20Mental%20Health%20Through%20Transparency%20and%20Interpretability%20for%20Understandability.pptx"><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
-                            </li>
-                            <li>B2B Managed Services In Digital Transformation
-                                <a href=""><img src="https://img.shields.io/badge/-Digital Transformation-ff69b4"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
-                            </li>
-                            <li>Specifics of medical data mining for diagnosis aid
-                                <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
-                            </li>
-                            <li>Wearable sensors and technologies and their applications in medicine
-                                <a href=""><img src="https://img.shields.io/badge/-Research and Technical Presentation-22cccc"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
-                            </li>
-                            <li>Software Architecture Design
-                                <a href=""><img src="https://img.shields.io/badge/-Software Engineering II-red"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
-                            </li>
-                            <li>Scrum Methodology
-                                <a href=""><img src="https://img.shields.io/badge/-Software Engineering II-red"></img></a>
-                                <a href=""><img src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
-                            </li>
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">Presentations</b>
+                    </h2>
+                    <ol type="1">
+                        <li>Detection of Dentigerous lesion from Radiographic images using Deep learning methods
+                            <a href=""><img src="https://img.shields.io/badge/-B.Sc. Thesis-success"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
+                        </li>
+                        <li>Explainable Artificial Intelligence for Mental Health Through Transparency and
+                            Interpretability for Understandability
+                            <a
+                                href="https://github.com/varaste/varaste.github.io/blob/master/Assets/Arya%20Varaste-Explainable%20Artificial%20Intelligence%20for%20Mental%20Health%20Through%20Transparency%20and%20Interpretability%20for%20Understandability.pptx"><img
+                                    src="https://img.shields.io/badge/-Trustworthy AI-e8543a"></img></a>
+                            <a
+                                href="https://github.com/varaste/varaste.github.io/blob/master/Assets/Arya%20Varaste-Explainable%20Artificial%20Intelligence%20for%20Mental%20Health%20Through%20Transparency%20and%20Interpretability%20for%20Understandability.pptx"><img
+                                    src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
+                        </li>
+                        <li>B2B Managed Services In Digital Transformation
+                            <a href=""><img src="https://img.shields.io/badge/-Digital Transformation-ff69b4"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
+                        </li>
+                        <li>Specifics of medical data mining for diagnosis aid
+                            <a href=""><img src="https://img.shields.io/badge/-Data Mining-green"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
+                        </li>
+                        <li>Wearable sensors and technologies and their applications in medicine
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-Research and Technical Presentation-22cccc"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
+                        </li>
+                        <li>Software Architecture Design
+                            <a href=""><img src="https://img.shields.io/badge/-Software Engineering II-red"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
+                        </li>
+                        <li>Scrum Methodology
+                            <a href=""><img src="https://img.shields.io/badge/-Software Engineering II-red"></img></a>
+                            <a href=""><img
+                                    src="https://img.shields.io/badge/-PPT-informational?logo=Microsoft PowerPoint&logoColor=white&labelColor=orange"></img></a>
+                        </li>
 
-                        </ol>
-                    </div>
-
-                    
-
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
-                        <h2 class=" w3-padding-16">
-                            <b class="Title">Honors and Awards</b>
-                        </h2>
-
-                        <ul style="list-style-type:circle;">
-                            <li><b>Ranked 6th</b> among participants in the National Master Entrance Exam among all Iranian Students in the fild of Information Technology. [2021]</li> 
-                            <li><b>Ranked 2nd</b> among students of Information Technology at the University of Tehran. [2023]</li>
-
-                        </ul>
-                    </div>
-
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
-                        <h2 class=" w3-padding-16">
-                            <b class="Title">Hobbies</b>
-                        </h2>
-                        <ul style="list-style-type:circle;">
-                            <li>Football</li>
-                            <li>Literature</li>
-                            <li>Mountaineering</li>
-                            <li>Psychology</li>
-                        </ul>
-                    </div>
+                    </ol>
+                </div>
 
 
-                    <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
-                        <h2 class=" w3-padding-16">
-                            <b class="Title">References</b>
-                        </h2>
-                        <div class="lang">
-                            
-                                <a href="https://ece.ut.ac.ir/en/~ftaghiyar">
-                                    <h4 class="Refh4">Fattaneh Taghiyareh</h4>
-                                </a>
-                                <b>Associate Professor</b> Electrical and Computer Engineering Department, University of Tehran
-                                <br> Email: ftaghiyar@ut.ac.ir
-                                <br>
-                                <hr>
 
-                                <a href="http://ceit.aut.ac.ir/~farbeh/">
-                                    <h4 class="Refh4">Hamed Farbeh</h4>
-                                </a>
-                                <b>Assistant Professor</b> Computer Engineering and IT Department, Amirkabir University of Technology
-                                <br> Email: farbeh@aut.ac.ir
-                                <br>
-                                <hr>
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">Honors and Awards</b>
+                    </h2>
 
-<!--                                 <a href="https://aut.ac.ir/cv/2188/Hamid-Reza-Zarandi?slc_lang=en&&cv=2188&mod=scv">
+                    <ul style="list-style-type:circle;">
+                        <li><b>Ranked 6th</b> among participants in the National Master Entrance Exam among all Iranian
+                            Students in the fild of Information Technology. [2021]</li>
+                        <li><b>Ranked 2nd</b> among students of Information Technology at the University of Tehran.
+                            [2023]</li>
+
+                    </ul>
+                </div>
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">Hobbies</b>
+                    </h2>
+                    <ul style="list-style-type:circle;">
+                        <li>Football</li>
+                        <li>Literature</li>
+                        <li>Mountaineering</li>
+                        <li>Psychology</li>
+                    </ul>
+                </div>
+
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">References</b>
+                    </h2>
+                    <div class="lang">
+
+                        <a href="https://ece.ut.ac.ir/en/~ftaghiyar">
+                            <h4 class="Refh4">Fattaneh Taghiyareh</h4>
+                        </a>
+                        <b>Associate Professor</b> Electrical and Computer Engineering Department, University of Tehran
+                        <br> Email: ftaghiyar@ut.ac.ir
+                        <br>
+                        <hr>
+
+                        <a href="http://ceit.aut.ac.ir/~farbeh/">
+                            <h4 class="Refh4">Hamed Farbeh</h4>
+                        </a>
+                        <b>Assistant Professor</b> Computer Engineering and IT Department, Amirkabir University of
+                        Technology
+                        <br> Email: farbeh@aut.ac.ir
+                        <br>
+                        <hr>
+
+                        <!--                                 <a href="https://aut.ac.ir/cv/2188/Hamid-Reza-Zarandi?slc_lang=en&&cv=2188&mod=scv">
                                     <h4 class="Refh4">HamidReza Zarandi</h4>
                                 </a>
                                 <b>Associate Professor</b> Computer Engineering and IT Department, Amirkabir University of Technology
@@ -752,7 +913,7 @@ font-style: italic;
                                 <br>
                                 <hr> -->
 
-<!--                                 <a href="https://scholar.google.com/citations?user=z2CvkDQAAAAJ&hl=en">
+                        <!--                                 <a href="https://scholar.google.com/citations?user=z2CvkDQAAAAJ&hl=en">
                                     <h4 class="Refh4">HamidReza Shahriari</h4>
                                 </a>
                                 <b>Assistant Professor</b> Computer Engineering and IT Department, Amirkabir University of Technology
@@ -760,28 +921,27 @@ font-style: italic;
                                 <br>
                                 <hr> -->
 
-                                <a href="https://www.linkedin.com/in/mahdi-javanmardi-037b346b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bc5Ok8b9zS%2FmKhI6qNBGWEw%3D%3D">
-                                    <h4 class="Refh4">Mahdi Javanmardi</h4>
-                                </a>
-                                <b>Assistant Professor</b> Computer Engineering and IT Department, Amirkabir University of Technology
-                                <br>Email: mjavan@aut.ac.ir
-                                <hr>
+                        <a
+                            href="https://www.linkedin.com/in/mahdi-javanmardi-037b346b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bc5Ok8b9zS%2FmKhI6qNBGWEw%3D%3D">
+                            <h4 class="Refh4">Mahdi Javanmardi</h4>
+                        </a>
+                        <b>Assistant Professor</b> Computer Engineering and IT Department, Amirkabir University of
+                        Technology
+                        <br>Email: mjavan@aut.ac.ir
+                        <hr>
 
-<!--                                 <a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=189480">
+                        <!--                                 <a href="https://www.genealogy.math.ndsu.nodak.edu/id.php?id=189480">
                                     <h4 class="Refh4">Masoumeh Taromirad</h4>
                                 </a>
                                 <b>Assistant Professor</b> Computer Engineering and IT Department, Amirkabir University of Technology
                                 <br>Email: -->
-                            
-                        </div>
+
                     </div>
                 </div>
-                <!-- End Right Column -->
-            
-            
-            
-            
             </div>
+            <!-- End Right Column -->
+
+        </div>
             <!-- End Grid -->
             <footer class="w3-container footer w3-center w3-margin-top w3-round-large PageName">
                     <h4 style="color: aliceblue;">Find me on social media</h4>
