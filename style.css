@@ -1,11 +1,39 @@
+body {
+    font-family: var(--MainFont);
+    background-color: var(--BgColor);
+    padding: var(--MyPadding);
+    color: var(--MyTextColor);
+}
+
+button {
+    background-color: var(--MainColor);
+    color: var(--MyTextColor);
+    border: none;
+    cursor: pointer;}
+
+    :root{
+        --MainFont: 'Nunito';
+        --MainColor: #0c7b00;
+        --SecendColor: #1bb600  ;
+        --BgColor:  #dfeadf;
+        --CardColor:  #f5fdef;
+        --MyTextColor: #ffffff;
+        --MyPadding: 10px;
+        --TextColor: #343434;
+        --T: #212420;
+
+
+        }
+
 @font-face {
     font-family: Nunito;
     src: url("./Nunito/Nunito-Regular.ttf") format('truetype');
     font-weight: bold;
     font-style: normal;
-       }
+}
        html,
-       body,
+       body{color: var(--TextColor);
+       }
        h1,
        h2,
        h3,
@@ -14,6 +42,8 @@
        h6 {
            font-family: var(--MainFont), sans-serif;
            font-weight: 400;
+           color:  var(--TextColor);
+
        }
     
        h1 {
@@ -40,16 +70,19 @@
        }
        
 
-        :root{
-        --MainFont: 'Nunito';
-        --MainColor: #008a00;
-        --SecendColor: #21b421  ;
-        --BgColor:  #cfddcf;
-        --CardColor:  #f3ffea;
-        --MyTextColor: #fff;
-        --MyPadding: 10px;
-        }
 
+
+        /* :root{
+            --MainFont: 'Nunito';
+            --MainColor: #0c7b00;
+            --SecendColor: #1bb600  ;
+            --BgColor:  #4a4a4a;
+            --CardColor:  #252525;
+            --MyTextColor: #fff;
+            --MyPadding: 10px;
+            --TextColor: #343434;
+            } */
+            
         .AryaBG{
             background-color: var(--BgColor);
         }
@@ -61,7 +94,7 @@
         background-color: var(--MainColor);
         margin: 1%;
         padding: 0%;
-        border: 10px;
+        border: 1px;
         border-color: black;
         margin-left: 0.5%; 
         margin-right: 0.5%
@@ -82,7 +115,7 @@
         }
         
         .subTitle {
-            color: rgb(61, 61, 61);
+            color: var(--TextColor);
         }
 
        .ii {
@@ -91,7 +124,7 @@
        
 
        .TA-CName {
-           color: rgb(63, 63, 63);
+           color: var(--TextColor);
            font-size: 17px;
        }
        
@@ -205,5 +238,67 @@
     .twitter {
         color: royalblue;
     }
+    
+
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+    * {box-sizing: border-box;}
+    
+    body {
+ 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+      min-height: 100vh;
+      margin: 0;
+      transition: background 0.2s linear;
+    }
+    
+    body.dark {background-color: #292c35;} /* #9b59b6 */
+    
+    body.dark h1, body.dark .support a {color: #fff;}
+    
+    .checkbox {
+      opacity: 0;
+      position: absolute;
+    }
+    
+    .checkbox-label {
+      background-color: #111;
+      width: 50px;
+      height: 26px;
+      border-radius: 50px;
+      position: relative;
+      padding: 5px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .fa-moon {color: #f1c40f;}
+    
+    .fa-sun {color: #f39c12;}
+    
+    .checkbox-label .ball {
+      background-color: #fff;
+      width: 22px;
+      height: 22px;
+      position: absolute;
+      left: 2px;
+      top: 2px;
+      border-radius: 50%;
+      transition: transform 0.2s linear;
+    }
+    
+    .checkbox:checked + .checkbox-label .ball {
+      transform: translateX(24px);
+    }
+    
+    
+    
+    
     
     
