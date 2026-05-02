@@ -1,1 +1,722 @@
+<!DOCTYPE html>
+<html>
+<title>Arya Varaste</title>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="pt.png" sizes="192x192" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nunito">
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<style>
+    @font-face {
+        font-family: Nunito;
+        src: url("./Nunito/Nunito-Regular.ttf") format('truetype');
+    }
+
+    @font-face {
+        font-family: Nunito;
+        src: url("./Nunito/Nunito-Bold.ttf") format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+
+    @font-face {
+        font-family: Nunito;
+        src: url("./Nunito/Nunito-Italic.ttf") format('truetype');
+        font-weight: normal;
+        font-style: italic;
+    }
+
+
+
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Nunito', sans-serif;
+        color: var(--TextColor);
+
+    }
+
+    h1 {
+        font-family: 'Nunito', sans-serif;
+        color: rgb(255, 255, 255);
+        background-color: #3a73a9;
+        margin: 2%;
+        padding: 0%;
+        border: 10px;
+        border-color: black;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+    }
+</style>
+<script>
+    function myFunction() {
+        var x = document.getElementById("demo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+
+
+
+<body class="AryaBG">
+    <!-- Page Container -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+        <!-- The Grid -->
+        <div class="w3-row-padding">
+            <div class="w3-container myName w3-round-large">
+                <div class="w3-bar">
+
+                    <h2 class="myName w3-hover-opacity w3-bar-item w3-button" style="margin: 0.5%;">Arya Varaste Nezhad
+                    </h2>
+                    <!-- <button id="colorButton">Change Colors</button>
+                        <script src="script.js"></script> -->
+
+                    <button class="w3-right" id="colorButton" style="margin-top: 2%;font-size:20px"><i
+                            class="fa  fa-moon-o"></i></button>
+                    <script src="script.js"></script>
+
+                    <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Contact</a> -->
+                    <a href="Projects.html" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Projects</a>
+                    <a href="Publications.html" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Publications</a>
+                    <a href="Bio.html" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Bio</a>
+                    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-right"
+                        style="border-top-left-radius:10px; border-top-right-radius: 10px; background-color: var(--SecendColor); margin-top: 2%; margin-right: 1%;">Home</a>
+                    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                        onclick="myFunction()">&#9776;</a>
+
+                </div>
+
+                <div id="demo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium">
+                    <a href="index.html" class="w3-bar-item w3-button">Bio</a>
+                    <a href="Bio.html" class="w3-bar-item w3-button">Bio</a>
+                    <a href="Publications.html" class="w3-bar-item w3-button">Publications</a>
+                    <a href="Projects.html" class="w3-bar-item w3-button">Projects</a>
+                    <!-- <a href="#" class="w3-bar-item w3-button">Contact</a> -->
+                </div>
+
+            </div>
+            <!-- Left Column -->
+            <div class="w3-third">
+                <div class="w3-card-4 w3-round-large AryaCard">
+                    <div class="w3-display-container LeftCont">
+                    </div>
+                    <br>
+                    <div class="w3-container">
+
+
+                        <img src="Arya.png" style="width:50%; border-radius: 50%;" class="myImage w3-hover-opacity z0-1"
+                            alt="Avatar"></img>
+
+                        <hr>
+
+                    </div>
+                </div>
+                <br>
+                <!-- End Left Column -->
+            </div>
+
+            <!-- Right Column -->
+            <div class="w3-twothird">
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <h2 class=" w3-padding-16">
+                        <b class="Title">Publications</b>
+                    </h2>
+                </div>
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">
+                                MentalGame: Predicting Personality-Job Fitness for Software Developers Using Multi-Genre
+                                Games and Machine Learning Approaches
+                            </b>
+                            <a href="https://arxiv.org/abs/2601.01206">
+                                <img src="https://img.shields.io/badge/2026-arXiv-red">
+                            </a>
+
+                        </h4>
+
+                        <img src="Assets/MentalGame Predicting Personality-Job Fitness for Software Developers Using Multi-Genre Games and Machine Learning Approaches.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            Personality assessment in career guidance and personnel selection traditionally relies on
+                            self-report question naires, which are susceptible to response bias, fatigue, and
+                            intentional distortion. Game-based assessment offers a promising alternative by capturing
+                            implicit behavioral signals during gameplay. This study proposes a multi genre serious-game
+                            framework combined with machine-learning techniques to predict suitability for software
+                            development roles. Developer-relevant personality and behavioral traits were identified
+                            through a systematic lit erature review and an empirical study of professional software
+                            engineers. A custom mobile game was designed to elicit behaviors related to problem solving,
+                            planning, adaptability, persistence, time management, and informa tion seeking. Fine-grained
+                            gameplay event data were collected and analyzed using a two-phase modeling strategy where
+                            suitability was predicted exclusively from gameplay-derived behavioral features. Results
+                            show that our model achieved up to 97% precision and 94% accuracy. Behavioral analysis
+                            revealed that proper candidates exhibited distinct gameplay patterns, such as more wins in
+                            puzzle-based games, more side challenges, navigating menus more frequently, and exhibiting
+                            fewer pauses, retries, and surrender actions. These findings demonstrate that implicit
+                            behavioral traces captured during gameplay is promising in predicting software-development
+                            suit ability without explicit personality testing, supporting serious games as a scalable,
+                            engaging, and less biased alternative for career assessment.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">AI in Mental Health: Emotional and Sentiment Analysis of Large Language Models'
+                                Responses to Depression, Anxiety, and Stress Queries</b>
+                            <a href="https://arxiv.org/abs/2508.11285">
+                                <img src="https://img.shields.io/badge/2025-arXiv-red">
+                            </a>
+
+                        </h4>
+
+                        <img src="Assets/AI in Mental Health Emotional and Sentiment Analysis of Large Language Models' Responses to Depression, Anxiety, and Stress Queries.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            Depression, anxiety, and stress are widespread mental health concerns that increasingly
+                            drive individuals to seek information from Large Language Models (LLMs). This study
+                            investigates how eight LLMs (Claude Sonnet, Copilot, Gemini Pro, GPT-4o, GPT-4o mini, Llama,
+                            Mixtral, and Perplexity) reply to twenty pragmatic questions about depression, anxiety, and
+                            stress when those questions are framed for six user profiles (baseline, woman, man, young,
+                            old, and university student). The models generated 2,880 answers, which we scored for
+                            sentiment and emotions using state-of-the-art tools. Our analysis revealed that optimism,
+                            fear, and sadness dominated the emotional landscape across all outputs, with neutral
+                            sentiment maintaining consistently high values. Gratitude, joy, and trust appeared at
+                            moderate levels, while emotions such as anger, disgust, and love were rarely expressed. The
+                            choice of LLM significantly influenced emotional expression patterns. Mixtral exhibited the
+                            highest levels of negative emotions including disapproval, annoyance, and sadness, while
+                            Llama demonstrated the most optimistic and joyful responses. The type of mental health
+                            condition dramatically shaped emotional responses: anxiety prompts elicited extraordinarily
+                            high fear scores (0.974), depression prompts generated elevated sadness (0.686) and the
+                            highest negative sentiment, while stress-related queries produced the most optimistic
+                            responses (0.755) with elevated joy and trust. In contrast, demographic framing of queries
+                            produced only marginal variations in emotional tone. Statistical analyses confirmed
+                            significant model-specific and condition-specific differences, while demographic influences
+                            remained minimal. These findings highlight the critical importance of model selection in
+                            mental health applications, as each LLM exhibits a distinct emotional signature that could
+                            significantly impact user experience and outcomes.
+
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">From Play to Prediction: Assessing Depression and Anxiety in Players’ Behavior
+                                with Machine Learning Models</b>
+                            <a href="https://journal.seriousgamessociety.org/index.php/IJSG/article/view/897">
+                                <img
+                                    src="https://img.shields.io/badge/2025-International Journal of Serious Games-green">
+                            </a>
+
+                        </h4>
+
+                        <img src="Assets/From Play to Prediction Assessing Depression and Anxiety in Players Behavior with Machine Learning Models.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            In today's society, depression and anxiety pose significant challenges for individuals
+                            across various age groups, emphasizing the need for timely identification to facilitate
+                            effective treatment and prevent future complications. However, current methods of assessing
+                            mental health often rely on self-reporting, which can be biased and tedious. This paper
+                            explores the potential of utilizing artificial intelligence for continuous, unobtrusive
+                            monitoring of mental well-being through the analysis of gameplay log data in a multi-genre
+                            game involving 64 participants with Machine learning algorithms, specifically the NuSVC
+                            model, achieved 93.75% accuracy, 94.44% precision, 93.75% recall, and a 93.72% F1-score for
+                            identifying depression, while the GBM classifier attained 93.75% accuracy, 95.45% precision,
+                            93.75% recall, and a 91.67% F1-score for detecting anxiety. These findings highlight the
+                            potential of using game-based behavioral data as a potential indicator of mental health
+                            status and offering an innovative approach for diagnosis that reduces the burden on
+                            healthcare systems and makes mental health support more accessible to those reluctant to
+                            seek help through conventional means.
+
+
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">Analyzing the Mathematical Proficiency of Large Language Models in Computer
+                                Science Graduate Admission Tests</b>
+                            <a href="https://ieeexplore.ieee.org/document/10967440/">
+                                <img src="https://img.shields.io/badge/2025-IEEE-blue">
+                            </a>
+                        </h4>
+
+                        <img src="Assets/Analyzing the Mathematical Proficiency of Large Language Models in Computer Science Graduate Admission Tests.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            This study evaluates the performance of six prominent Large Language Models (LLMs) on
+                            graduate entrance exam multiple-choice mathematics questions in computer science, computer
+                            engineering, and information technology programs, with a focus on their cross-lingual
+                            capabilities. The selected models, GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, Llama 3.1
+                            405B, Mistral Large 2, and Qwen 2.5 72B, were tested on 146 questions presented in both
+                            Persian and English, spanning four key mathematical domains. Results reveal significant
+                            variations in accuracy, with Gemini 1.5 Pro achieving the highest overall performance in
+                            English (63.7%) and Claude 3.5 leading in Persian (52.0%). However, some models struggled
+                            with maintaining consistent accuracy across languages, showing a cross-lingual performance
+                            gap. The findings underscore the potential of LLMs in addressing complex mathematical tasks
+                            but also highlight their current limitations, particularly in multilingual contexts. Notable
+                            disparities in model performance point to the importance of architectural innovations and
+                            multilingual training.
+                            project
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">How Jungian Cognitive Functions Explain MBTI Type Prevalence in Computer
+                                Industry Careers</b>
+                            <a href="https://arxiv.org/abs/2504.17248">
+                                <img src="https://img.shields.io/badge/2025-arXiv-red">
+                            </a>
+
+                        </h4>
+
+                        <img src="Assets/How Jungian Cognitive Functions Explain MBTI Type Prevalence in Computer Industry Careers.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            This study investigates the relationship between Carl Jung’s cognitive functions and success
+                            in computer industry careers by analyzing the distribution of Myers-Briggs Type Indicator
+                            (MBTI) types among professionals in the field. Building on Carl Jung’s theory of
+                            psychological types, which categorizes human cognition into four primary functions, Sensing,
+                            Intuition, Thinking, and Feeling, this study investigates how these functions, when combined
+                            with the attitudes of Extraversion and Introversion, influence personality types and career
+                            choices in the tech sector. Through a comprehen sive analysis of data from 30 studies
+                            spanning multiple countries and decades, encompassing 18,264 individuals in computer-related
+                            professions, we identified the most prevalent cognitive functions and their combinations.
+                            After normalizing the data against general population distributions, our f indings showed
+                            that individual Jungian functions (Te, Ni, Ti, Ne), dual function combinations (Ni-Te,
+                            Ti-Ne, Si-Te, Ni-Fe), and MBTI types (INTJ, ENTJ, INTP, ENTP, ISTJ, INFJ, ESTJ, ESTP) had
+                            significantly higher representation compared to general population norms. The paper
+                            addresses gaps in the existing literature by providing a more nuanced understanding of how
+                            cognitive functions impact job performance and team dynamics, offering insights for career
+                            guidance, team composition, and professional development in the computer industry, and a
+                            deeper understanding of how cognitive preferences influence career success in
+                            technology-related fields.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">Evaluating LLMs in Persian News Summarization</b>
+                            <a href="https://doi.org/10.1109/IKT62039.2023.10433060">
+                                <img src="https://img.shields.io/badge/2024-IEEE-blue">
+                            </a>
+
+                        </h4>
+
+                        <img src="Assets/Evaluating LLMs in Persian News Summarization.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            This study evaluates the performance of eight Large Language Models (LLMs) in Persian news
+                            summarization: ChatGPT-4o, Claude-3.5-Sonnet, Gemini-Pro-1.5, Llama-3.1 405B, Command-R,
+                            Mistral-Large-2, DeepSeek V2.5, and Gemma-2-9B. We assess these models across five news
+                            categories: Economy, International, Sports, Technology, and Social, using the pn_summary
+                            dataset. Our evaluation employs multiple metrics, including BERTScore and ROUGE, across two
+                            input conditions: article-only and article-with-title. Results show that Llama-3.1 405b
+                            performed best against reference summaries in the article only setting, achieving the
+                            highest BERTScore F1 (50.60) and ROUGE-L (33.96) scores. Notably, including article titles
+                            helped models produce summaries which aligned more closely to the reference summary,
+                            increasing the average BERTScore F1 from 48.31 to 50.16 across most models. Moreover, when
+                            comparing generated summaries to original articles, Mistral-Large-2 led with a BERTScore F1
+                            of 48.09. In category-specific analysis, Mistral Large-2 consistently outperformed the
+                            reference summaries across all news categories, with the most significant improvement in the
+                            Economic category. This study provides valuable insights into the current capabilities of
+                            LLMs for Persian summarization, highlighting their potential and the impact of input
+                            structure on performance. Our findings contribute to the growing body of research on
+                            multilingual summarization and have practical implications for Persian language processing
+                            applications.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">LLM Performance Assessment in Computer Science Graduate Entrance Exams</b>
+                            <a href="https://doi.org/10.1109/IST64061.2024.10843484">
+                                <img src="https://img.shields.io/badge/2024-IEEE-blue">
+                            </a>
+
+                        </h4>
+
+                        <img src="Assets/LLM Performance Assessment in Computer Science Graduate Entrance Exams.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            Medical images are one of the most important diagnostic tools at the doctor's disposal in
+                            diagnosing the prevalence and nature of the disease, in addition to assessing its severity.
+                            Medical science uses these images to help doctors diagnose diseases, find a more accurate
+                            diagnosis, and develop an optimal treatment plan. Doctors use a variety of methods depending
+                            on their purpose and imaging capabilities of the devices they use. The effectiveness of deep
+                            neural networks encourages us to use them in analyzing medical images. In this project, due
+                            to the importance of early detection of dentigerous lesions, studies are performed on dental
+                            radiographic images, and a neural network classifier using the Tensorflow Library is
+                            designed. A data set consisting of 936 radiographic images, a neural network designed and
+                            implemented with 93% accuracy, and a userfriendly web application are the output of this
+                            project
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">Hybrid Vision Transformer for Detection of Dentigerous Cysts in Dental
+                                Radiography Images</b>
+                            <a href="https://doi.org/10.1109/ICCKE65377.2024.10874664">
+                                <img src="https://img.shields.io/badge/2024-IEEE-blue">
+                            </a>
+
+                        </h4>
+
+                        <img src="Assets/Hybrid Vision Transformer for Detection of Dentigerous Cysts in Dental Radiography Images.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            Medical images are one of the most important diagnostic tools at the doctor's disposal in
+                            diagnosing the prevalence and nature of the disease, in addition to assessing its severity.
+                            Medical science uses these images to help doctors diagnose diseases, find a more accurate
+                            diagnosis, and develop an optimal treatment plan. Doctors use a variety of methods depending
+                            on their purpose and imaging capabilities of the devices they use. The effectiveness of deep
+                            neural networks encourages us to use them in analyzing medical images. In this project, due
+                            to the importance of early detection of dentigerous lesions, studies are performed on dental
+                            radiographic images, and a neural network classifier using the Tensorflow Library is
+                            designed. A data set consisting of 936 radiographic images, a neural network designed and
+                            implemented with 93% accuracy, and a userfriendly web application are the output of this
+                            project.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">Exploring the Relationship Between Gameplay Log Data and Depression &
+                                Anxiety</b>
+                            <a href="https://doi.org/10.1109/IKT62039.2023.10433060">
+                                <img src="https://img.shields.io/badge/2023-IEEE-blue">
+                            </a>
+
+                        </h4>
+
+                        <img src="Assets/Exploring the Relationship Between Gameplay Log Data and Depression & Anxiety.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            Depression and Anxiety are prevalent mental health disorders affecting millions worldwide.
+                            Identifying these disorders accurately and promptly is crucial to ensure that individuals
+                            can receive appropriate treatment. This paper proposes using a game to identify behavioral
+                            patterns that indicate depression and anxiety. Our study involved 56 university students. In
+                            this paper, we used statistical tools such as calculating Correlation, Linear Regression,
+                            Kolmogorov–Smirnov, ANOVA, and Mann–Whitney U test to analyze our data. For this research,
+                            we designed a shooter and a memory-based game that can challenge disorders by creating
+                            exciting and stressful moments. Using serious games offers several advantages over
+                            traditional methods, like increasing accuracy and reducing bias by removing self-reports and
+                            monitoring player behaviors for extended periods. Our results indicate that several
+                            parameters are significantly related to depression and anxiety. These parameters include the
+                            number of guesses and surrendering in memory games, manner of movements, losing perks,
+                            losing lives, number of enemies colliding with the player, and number of playing to win in
+                            shooter games. We also found that log size and skipping game tutorials in each game were
+                            related to depression and anxiety. Lastly, age and getting help from others were identified
+                            as significant factors. Overall, our research highlights the potential of games as an
+                            alternative tool for assessing and understanding depression and anxiety disorders. By
+                            leveraging the interactive nature of games, researchers and clinicians can gain valuable
+                            insights into individuals' mental health conditions, leading to improved identification and
+                            treatment outcomes.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+
+
+
+                <div class="w3-container w3-card AryaCard w3-margin-bottom w3-round-large">
+
+                    <div class="w3-container">
+                        <h4 class=" w3-padding-16">
+                            <b class="">MBTI-Personality Types and Traits of Professional Software Engineers</b>
+                            <a href="https://doi.org/10.22133/ijwr.2023.396296.1152">
+                                <img
+                                    src="https://img.shields.io/badge/2023-International Journal of Web Research-Yellow">
+                            </a>
+
+                        </h4>
+
+                        <img src="Assets/MBTI-Personality Types and Traits of Professional Software Engineers.png"
+                            style="width:100%; border-radius: 10px;" class="myImage w3-hover-opacity"
+                            alt="Avatar"></img>
+                        <p class="" style="margin: 0%;" align="justify">
+                            <br>
+
+                            <b>ABSTRACT</b>
+                            <br>
+                            Apprehending the personality types of software engineers is essential for both individuals
+                            and organizations, especially in software engineering, which heavily relies on teamwork and
+                            soft skills. This paper explores various aspects and dimensions of personality exhibited by
+                            software engineers, focusing on Iranian culture. To achieve this, we conducted a
+                            comprehensive study that involved analyzing existing research on a global scale and a case
+                            study specifically targeting professional software engineers in Iran. The Myers-Briggs Type
+                            Indicator test was utilized to gather data, and the responses were carefully filtered,
+                            resulting in 102 valid datasets for analysis, representing both the private and public
+                            sectors. Our methodology included the development of a comprehensive questionnaire comprised
+                            of personal and standardized MBTI questions in Persian. The findings of our study indicate
+                            that software engineers in Iran predominantly exhibit a thinking personality rather than a
+                            feeling one. Moreover, personality types such as ISTJ, INTJ, ESTJ, and ENTJ were observed to
+                            be more prevalent among software engineers, while ISFJ, ISFP, ESFP, ENFP, and ESFJ were less
+                            common. While these results align with global trends, there are also noteworthy distinctions
+                            among Iranian software engineers. The implications of our research extend to practical
+                            applications for managers, human resources specialists, and recruiters. By understanding
+                            software engineers' personality types and traits, employers can optimize talent acquisition
+                            strategies, improve job placements, and tailor career development programs accordingly. This
+                            knowledge is helpful for students and those interested in a career in software engineering.
+                            It aids in making informed decisions that meet the field's requirements.
+                        </p>
+                        <hr>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- End Right Column -->
+
+
+
+
+            </div>
+            <!-- End Grid -->
+
+        </div>
+        <!-- End Page Container -->
+
+        <footer class="w3-container footer w3-center w3-margin-top w3-round-large PageName"
+            style="padding:18px 12px; font-family:'Nunito', 'Poppins', 'Segoe UI', sans-serif;">
+
+            <h4 style="color: aliceblue; margin-bottom:20px;">
+                Find me on the Internet
+            </h4>
+            <!-- Google Font -->
+            <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet">
+
+
+            <!-- Social / Academic Badges Container -->
+            <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:10px;">
+
+                <!-- GitHub -->
+                <a href="https://github.com/varaste" target="_blank" style="text-decoration:none;">
+                    <span
+                        style="display:inline-flex; align-items:center; font-family:'Nunito',sans-serif; border-radius:12px; overflow:hidden; font-weight:700;">
+                        <span style="background:#181717; color:white; padding:4px 10px;">
+                            <i class="fa fa-github"></i>
+                        </span>
+                        <span style="background:white; color:#181717; padding:4px 12px;">GitHub</span>
+                    </span>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/arya-varaste-908191137/" target="_blank"
+                    style="text-decoration:none;">
+                    <span
+                        style="display:inline-flex; align-items:center; font-family:'Nunito',sans-serif; border-radius:12px; overflow:hidden; font-weight:700;">
+                        <span style="background:#0077B5; color:white; padding:4px 10px;">
+                            <i class="fa fa-linkedin"></i>
+                        </span>
+                        <span style="background:white; color:#0077B5; padding:4px 12px;">LinkedIn</span>
+                    </span>
+                </a>
+
+                <!-- Google Scholar -->
+                <a href="https://scholar.google.com/" target="_blank" style="text-decoration:none;">
+                    <span
+                        style="display:inline-flex; align-items:center; font-family:'Nunito',sans-serif; border-radius:12px; overflow:hidden; font-weight:700;">
+                        <span style="background:#4285F4; color:white; padding:4px 10px;">
+                            <i class="ai ai-google-scholar"></i>
+                        </span>
+                        <span style="background:white; color:#4285F4; padding:4px 12px;">Scholar</span>
+                    </span>
+                </a>
+
+                <!-- ORCID -->
+                <a href="https://orcid.org/" target="_blank" style="text-decoration:none;">
+                    <span
+                        style="display:inline-flex; align-items:center; font-family:'Nunito',sans-serif; border-radius:12px; overflow:hidden; font-weight:700;">
+                        <span style="background:#A6CE39; color:white; padding:4px 10px;">
+                            <i class="ai ai-orcid"></i>
+                        </span>
+                        <span style="background:white; color:#A6CE39; padding:4px 12px;">ORCID</span>
+                    </span>
+                </a>
+
+                <!-- Telegram -->
+                <a href="https://t.me/AryaVaraste" target="_blank" style="text-decoration:none;">
+                    <span
+                        style="display:inline-flex; align-items:center; font-family:'Nunito',sans-serif; border-radius:12px; overflow:hidden; font-weight:700;">
+                        <span style="background:#26A5E4; color:white; padding:4px 10px;">
+                            <i class="fa fa-telegram"></i>
+                        </span>
+                        <span style="background:white; color:#26A5E4; padding:4px 12px;">Telegram</span>
+                    </span>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/aryavaraste/" target="_blank" style="text-decoration:none;">
+                    <span
+                        style="display:inline-flex; align-items:center; font-family:'Nunito',sans-serif; border-radius:12px; overflow:hidden; font-weight:700;">
+                        <span style="background:#E4405F; color:white; padding:4px 10px;">
+                            <i class="fa fa-instagram"></i>
+                        </span>
+                        <span style="background:white; color:#E4405F; padding:4px 12px;">Instagram</span>
+                    </span>
+                </a>
+
+                <!-- Gmail -->
+                <a href="mailto:a.varaste.n@gmail.com" style="text-decoration:none;">
+                    <span
+                        style="display:inline-flex; align-items:center; font-family:'Nunito',sans-serif; border-radius:12px; overflow:hidden; font-weight:700;">
+                        <span style="background:#EA4335; color:white; padding:4px 10px;">
+                            <i class="fa fa-google"></i>
+                        </span>
+                        <span style="background:white; color:#EA4335; padding:4px 12px;">Gmail</span>
+                    </span>
+                </a>
+
+                <!-- University of Tehran -->
+                <a href="mailto:aryavaraste@ut.ac.ir" style="text-decoration:none;">
+                    <span
+                        style="display:inline-flex; align-items:center; font-family:'Nunito',sans-serif; border-radius:12px; overflow:hidden; font-weight:700;">
+                        <span style="background:#003366; color:white; padding:4px 10px;">
+                            <img src="Assets/UT-Logo.png" style="width:15px; height:15px; vertical-align:middle;">
+                        </span>
+                        <span style="background:white; color:#003366; padding:4px 12px;">UT Mail</span>
+                    </span>
+                </a>
+
+            </div>
+
+            <!-- Footer credit -->
+            <p style="color: aliceblue; margin-top:10px;">
+                Made by
+                <a style="color: rgb(217, 255, 0); text-decoration:none;" href="https://github.com/varaste"
+                    target="_blank">
+                    Arya Varasteh
+                </a>
+            </p>
+
+
+        </footer>
+    </div>
+
+    <!--     <div style="width:0.01%; height: 2.1%; position: absolute; left: -9999px;">
+        <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=FYg_4qWkty3SCbNADW5OoyEtpOTPNcuZ-SNQEe97ToQ&cl=ffffff&w=a"></script>
+    </div> -->
+
+</body>
+
+</html>

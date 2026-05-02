@@ -16,7 +16,7 @@ button {
         --MainColor: #0c7b00;
         --SecendColor: #1bb600  ;
         --BgColor:  #dfeadf;
-        --CardColor:  #f5fdef;
+        --CardColor:  #ffffff;
         --MyTextColor: #ffffff;
         --MyPadding: 10px;
         --TextColor: #343434;
@@ -299,6 +299,50 @@ button {
     
     
     
+
     
-    
-    
+
+
+
+
+
+
+.pub-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.pub-item {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+/* number column */
+.pub-num {
+    min-width: 40px;
+    font-weight: bold;
+}
+
+/* content column */
+.pub-content {
+    flex: 1;
+}
+
+/* title formatting */
+.pub-title {
+    font-weight: bold;
+    display: inline;
+}
+
+/* author line indentation */
+.pub-authors {
+    margin-top: 4px;
+    margin-left: 0; /* important: aligns with wrapped title */
+    color: #444;
+}
+
+/* your name highlight */
+.my-name {
+    text-decoration: underline;
+}
